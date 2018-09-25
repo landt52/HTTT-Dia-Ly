@@ -1,0 +1,95 @@
+{"message":"Server listening at port5000","level":"info"}
+{"message":"GET 404 / - 0","level":"info"}
+{"message":"GET 404 /favicon.ico - 0","level":"info"}
+{"message":"GET 200 /hello - 0","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"name":"error","length":92,"severity":"FATAL","code":"28P01","file":"auth.c","line":"288","routine":"auth_failed","level":"error"}
+{"message":"Server listening at port5000","level":"info"}
+{"name":"error","length":92,"severity":"FATAL","code":"28P01","file":"auth.c","line":"288","routine":"auth_failed","level":"error"}
+{"message":"Server listening at port5000","level":"info"}
+{"name":"error","length":92,"severity":"FATAL","code":"28P01","file":"auth.c","line":"288","routine":"auth_failed","level":"error"}
+{"message":"Server listening at port5000","level":"info"}
+{"name":"error","length":92,"severity":"FATAL","code":"28P01","file":"auth.c","line":"288","routine":"auth_failed","level":"error"}
+{"message":"Server listening at port5000","level":"info"}
+{"name":"error","length":92,"severity":"FATAL","code":"28P01","file":"auth.c","line":"288","routine":"auth_failed","level":"error"}
+{"message":"Server listening at port5000","level":"info"}
+{"name":"error","length":92,"severity":"FATAL","code":"28P01","file":"auth.c","line":"288","routine":"auth_failed","level":"error"}
+{"message":"Server listening at port5000","level":"info"}
+{"name":"error","length":92,"severity":"FATAL","code":"28P01","file":"auth.c","line":"288","routine":"auth_failed","level":"error"}
+{"message":"Server listening at port5000","level":"info"}
+{"name":"error","length":92,"severity":"FATAL","code":"28P01","file":"auth.c","line":"288","routine":"auth_failed","level":"error"}
+{"message":"Server listening at port5000","level":"info"}
+{"name":"error","length":92,"severity":"FATAL","code":"28P01","file":"auth.c","line":"288","routine":"auth_failed","level":"error"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"name":"error","length":92,"severity":"FATAL","code":"28P01","file":"auth.c","line":"288","routine":"auth_failed","level":"error"}
+{"message":"Server listening at port5000","level":"info"}
+{"name":"error","length":92,"severity":"FATAL","code":"28P01","file":"auth.c","line":"288","routine":"auth_failed","level":"error"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"GET 404 / - 0","level":"info"}
+{"message":"GET 404 /time - 0","level":"info"}
+{"message":"GET 200 /hello - 0","level":"info"}
+{"message":"GET 404 /time - 0","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /time - 0","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hello - 16","level":"info"}
+{"message":"GET 404 /hanoi - 0","level":"info"}
+{"message":"Request Error /vietnam - database.getKingdomBoundaries is not a function","level":"error"}
+{"message":"GET 500 /vietnam - 0","level":"info"}
+{"message":"Request Error /vietnam - database.getKingdomBoundaries is not a function","level":"error"}
+{"message":"GET 500 /vietnam - 0","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"Request Error /vietnam - column \"geog\" does not exist","level":"error"}
+{"message":"GET 500 /vietnam - 17","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"Request Error /vietnam - column \"varname1\" does not exist","level":"error"}
+{"message":"GET 500 /vietnam - 48","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /vietnam - 1088","level":"info"}
+{"message":"GET 200 /hello - 0","level":"info"}
+{"message":"GET 404 /favicon.ico - 0","level":"info"}
+{"message":"GET 200 /vietnam - 1093","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hello - 0","level":"info"}
+{"message":"Request Error /vietnam - column \"Ha Noi\" does not exist","level":"error"}
+{"message":"GET 500 /vietnam - 0","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"Request Error /vietnam - column \"Hanoi\" does not exist","level":"error"}
+{"message":"GET 500 /vietnam - 17","level":"info"}
+{"message":"Request Error /vietnam - column \"Hanoi\" does not exist","level":"error"}
+{"message":"GET 500 /vietnam - 3","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"Request Error /vietnam - column \"Ha Noi City|Hanoi\" does not exist","level":"error"}
+{"message":"GET 500 /vietnam - 9","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"Request Error /vietnam - column \"Can Tho\" does not exist","level":"error"}
+{"message":"GET 500 /vietnam - 9","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"Request Error /vietnam - column \"Can Tho\" does not exist","level":"error"}
+{"message":"GET 500 /vietnam - 0","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /vietnam - 22","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"name":"error","length":92,"severity":"FATAL","code":"28P01","file":"auth.c","line":"288","routine":"auth_failed","level":"error"}
+{"message":"Server listening at port5000","level":"info"}
+{"name":"error","length":92,"severity":"FATAL","code":"28P01","file":"auth.c","line":"288","routine":"auth_failed","level":"error"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"name":"error","length":92,"severity":"FATAL","code":"28P01","file":"auth.c","line":"288","routine":"auth_failed","level":"error"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /vietnam - 21","level":"info"}
+{"message":"GET 404 /favicon.ico - 0","level":"info"}
