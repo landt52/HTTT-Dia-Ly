@@ -22,3 +22,7 @@
 {"name":"error","length":92,"severity":"FATAL","code":"28P01","file":"auth.c","line":"288","routine":"auth_failed","level":"error"}
 {"name":"error","length":92,"severity":"FATAL","code":"28P01","file":"auth.c","line":"288","routine":"auth_failed","level":"error"}
 {"name":"error","length":92,"severity":"FATAL","code":"28P01","file":"auth.c","line":"288","routine":"auth_failed","level":"error"}
+{"name":"error","length":103,"severity":"FATAL","code":"28P01","file":"auth.c","line":"307","routine":"auth_failed","level":"error"}
+{"message":"Request Error /hanoi - database.getKingdomBoundaries is not a function","level":"error"}
+{"message":"Request Error /hanoi - column \"id\" does not exist","level":"error"}
+{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":5422,"level":"error"}

@@ -93,3 +93,44 @@
 {"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
 {"message":"GET 200 /vietnam - 21","level":"info"}
 {"message":"GET 404 /favicon.ico - 0","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"name":"error","length":103,"severity":"FATAL","code":"28P01","file":"auth.c","line":"307","routine":"auth_failed","level":"error"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Connected To atlas_of_thrones at localhost:5432","level":"info"}
+{"message":"GET 404 /vietnam - 2","level":"info"}
+{"message":"GET 404 /favicon.ico - 0","level":"info"}
+{"message":"Request Error /hanoi - database.getKingdomBoundaries is not a function","level":"error"}
+{"message":"GET 500 /hanoi - 16","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Connected To atlas_of_thrones at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 28","level":"info"}
+{"message":"GET 404 /hello - 0","level":"info"}
+{"message":"GET 404 /vietnam - 0","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Connected To atlas_of_thrones at localhost:5432","level":"info"}
+{"message":"GET 404 /vietnam - 2","level":"info"}
+{"message":"GET 200 /hanoi - 39","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Connected To atlas_of_thrones at localhost:5432","level":"info"}
+{"message":"GET 404 /vietnam - 0","level":"info"}
+{"message":"Request Error /hanoi - column \"id\" does not exist","level":"error"}
+{"message":"GET 500 /hanoi - 3","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Connected To atlas_of_thrones at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 12","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":5422,"level":"error"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 26","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 21","level":"info"}
+{"message":"GET 200 /hanoi - 12","level":"info"}
+{"message":"GET 200 /hanoi - 12","level":"info"}
+{"message":"GET 200 /hanoi - 23","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 23","level":"info"}
+{"message":"GET 404 /favicon.ico - 0","level":"info"}
+{"message":"GET 404 / - 0","level":"info"}

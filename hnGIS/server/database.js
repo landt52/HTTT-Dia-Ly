@@ -1,6 +1,6 @@
 const { Pool, Client } = require('pg');
 const log = require('./logger');
-const connectionString = ;
+const connectionString = 'postgresql://postgres:password@localhost:5432/vietnamGIS';
 
 const pool = new Pool({
   connectionString: connectionString,
