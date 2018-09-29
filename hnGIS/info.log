@@ -455,3 +455,18 @@
 {"message":"GET 200 /hanoi - 45","level":"info"}
 {"message":"GET 200 /hanoi - 43","level":"info"}
 {"message":"GET 200 /hanoi - 47","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 51","level":"info"}
+{"message":"GET 200 /hanoi - 53","level":"info"}
+{"message":"GET 200 /hanoi - 53","level":"info"}
+{"message":"GET 200 /hanoi - 50","level":"info"}
+{"message":"GET 200 /hanoi - 56","level":"info"}
+{"message":"GET 200 /hanoi - 58","level":"info"}
+{"message":"GET 200 /hanoi - 65","level":"info"}
+{"message":"GET 200 /hanoi - 58","level":"info"}
+{"message":"GET 200 /hanoi - 45","level":"info"}
+{"message":"GET 200 /hanoi - 49","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 53","level":"info"}
