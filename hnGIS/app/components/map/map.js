@@ -25,8 +25,29 @@ export class Map extends Component {
     			'color': '#225',
     			'weight': 1,
     			'opacity': 0.65
-    		}
+    		},
+    		onEachFeature: this.onEachDistrict.bind(this)
     	})
+    }
+
+    onEachDistrict(feature, layer){
+    	layer.on({click: (e)=>{
+    		const {name, id} = feature.properties
+    		this.map.closePopup()
+    		this.setHighlightedRegion(layer)
+    		this.triggerEvent('locationSelected', {name, id})
+    	}})
+    }
+
+    setHighlightedRegion(layer){
+    	if(this.selected){
+    		this.layers.district.resetStyle(this.selected)
+    	}
+    	this.selected = layer
+    	if(this.selected){
+    		this.selected.bringToFront()
+    		this.selected.setStyle({color: 'blue'})
+    	}
     }
 
 	toggleLayer(layerName){

@@ -18,8 +18,8 @@ router.get('/hanoi/:id/size', async ctx =>{
 	const id = ctx.params.id;
 	const result = await database.getDistrictSize(id);
 	if(!result) { console.log(result); }
-	const districtSize = (result.size*10000).toFixed(2);
-	ctx.body = districtSize + ' km2';
+	const districtSize = (result.size*10000);
+	ctx.body = districtSize;
 });
 
 module.exports = router;
