@@ -134,3 +134,324 @@
 {"message":"GET 200 /hanoi - 23","level":"info"}
 {"message":"GET 404 /favicon.ico - 0","level":"info"}
 {"message":"GET 404 / - 0","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 49","level":"info"}
+{"message":"GET 404 /favicon.ico - 0","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 73","level":"info"}
+{"message":"GET 404 /favicon.ico - 0","level":"info"}
+{"message":"GET 200 /hanoi - 57","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 1430","level":"info"}
+{"message":"GET 404 /favicon.ico - 0","level":"info"}
+{"message":"Request Error /hanoi/1/size - Bad Request","level":"error"}
+{"message":"GET 400 /hanoi/1/size - 39","level":"info"}
+{"message":"Request Error /hanoi/211/size - Bad Request","level":"error"}
+{"message":"GET 400 /hanoi/211/size - 1","level":"info"}
+{"message":"Request Error /hanoi/212/size - Bad Request","level":"error"}
+{"message":"GET 400 /hanoi/212/size - 1","level":"info"}
+{"message":"Request Error /hanoi/240/size - Bad Request","level":"error"}
+{"message":"GET 400 /hanoi/240/size - 1","level":"info"}
+{"message":"Request Error /hanoi/240/size - Bad Request","level":"error"}
+{"message":"GET 400 /hanoi/240/size - 1","level":"info"}
+{"message":"Request Error /hanoi/240/size - Bad Request","level":"error"}
+{"message":"GET 400 /hanoi/240/size - 1","level":"info"}
+{"message":"Request Error /hanoi/240/size - Bad Request","level":"error"}
+{"message":"GET 400 /hanoi/240/size - 1","level":"info"}
+{"message":"Request Error /hanoi/240/size - Bad Request","level":"error"}
+{"message":"GET 400 /hanoi/240/size - 0","level":"info"}
+{"message":"Request Error /hanoi/240/size - Bad Request","level":"error"}
+{"message":"GET 400 /hanoi/240/size - 1","level":"info"}
+{"message":"Request Error /hanoi/240/size - Bad Request","level":"error"}
+{"message":"GET 400 /hanoi/240/size - 1","level":"info"}
+{"message":"Request Error /hanoi/240/size - Bad Request","level":"error"}
+{"message":"GET 400 /hanoi/240/size - 1","level":"info"}
+{"message":"Request Error /hanoi/240/size - Bad Request","level":"error"}
+{"message":"GET 400 /hanoi/240/size - 1","level":"info"}
+{"message":"Request Error /hanoi/1/size - Bad Request","level":"error"}
+{"message":"GET 400 /hanoi/1/size - 0","level":"info"}
+{"message":"Request Error /hanoi/1/size - Bad Request","level":"error"}
+{"message":"GET 400 /hanoi/1/size - 1","level":"info"}
+{"message":"Request Error /hanoi/Ung%Hoa/size - Bad Request","level":"error"}
+{"message":"GET 400 /hanoi/Ung%Hoa/size - 8","level":"info"}
+{"message":"Request Error /hanoi/Ung%Hoa/size - Bad Request","level":"error"}
+{"message":"GET 400 /hanoi/Ung%Hoa/size - 1","level":"info"}
+{"message":"GET 404 /hanoi/1 - 0","level":"info"}
+{"message":"GET 404 /hanoi/221 - 0","level":"info"}
+{"message":"GET 404 /hanoi/221 - 0","level":"info"}
+{"message":"Request Error /hanoi/221/size - Bad Request","level":"error"}
+{"message":"GET 400 /hanoi/221/size - 1","level":"info"}
+{"message":"Request Error /hanoi/221/size - Bad Request","level":"error"}
+{"message":"GET 400 /hanoi/221/size - 1","level":"info"}
+{"message":"Request Error /hanoi/221/size - Bad Request","level":"error"}
+{"message":"GET 400 /hanoi/221/size - 0","level":"info"}
+{"message":"Request Error /hanoi/221/size - Bad Request","level":"error"}
+{"message":"GET 400 /hanoi/221/size - 1","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"Request Error /hanoi/221/size - alert is not defined","level":"error"}
+{"message":"GET 500 /hanoi/221/size - 34","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi/221/size - 0","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi/221/size - 17","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi/221/size - 14","level":"info"}
+{"message":"GET 200 /hanoi/221/size - 2","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi/221/size - 17","level":"info"}
+{"message":"GET 200 /hanoi/221/size - 3","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi/221/size - 11","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"Request Error /hanoi/221/size - squareKM is not defined","level":"error"}
+{"message":"GET 500 /hanoi/221/size - 16","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi/221/size - 18","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi/221/size - 16","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi/221/size - 14","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi/221/size - 29","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi/221/size - 17","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"Request Error /hanoi/221/size - sub is not defined","level":"error"}
+{"message":"GET 500 /hanoi/221/size - 16","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi/221/size - 18","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi/221/size - 17","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 46","level":"info"}
+{"message":"GET 404 / - 0","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 1189","level":"info"}
+{"message":"GET 404 /favicon.ico - 0","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 57","level":"info"}
+{"message":"GET 200 /hanoi - 45","level":"info"}
+{"message":"GET 200 /hanoi - 43","level":"info"}
+{"message":"GET 200 /hanoi - 42","level":"info"}
+{"message":"GET 200 /hanoi - 52","level":"info"}
+{"message":"GET 200 /hanoi - 47","level":"info"}
+{"message":"GET 200 /hanoi - 45","level":"info"}
+{"message":"GET 200 /hanoi - 46","level":"info"}
+{"message":"GET 200 /hanoi - 42","level":"info"}
+{"message":"GET 200 /hanoi - 44","level":"info"}
+{"message":"GET 200 /hanoi - 46","level":"info"}
+{"message":"GET 200 /hanoi - 50","level":"info"}
+{"message":"GET 200 /hanoi - 52","level":"info"}
+{"message":"GET 200 /hanoi - 55","level":"info"}
+{"message":"GET 200 /hanoi - 54","level":"info"}
+{"message":"GET 200 /hanoi - 51","level":"info"}
+{"message":"GET 200 /hanoi - 45","level":"info"}
+{"message":"GET 200 /hanoi - 42","level":"info"}
+{"message":"GET 200 /hanoi - 43","level":"info"}
+{"message":"GET 200 /hanoi - 53","level":"info"}
+{"message":"GET 200 /hanoi - 43","level":"info"}
+{"message":"GET 200 /hanoi - 51","level":"info"}
+{"message":"GET 200 /hanoi - 47","level":"info"}
+{"message":"GET 200 /hanoi - 50","level":"info"}
+{"message":"GET 200 /hanoi - 61","level":"info"}
+{"message":"GET 200 /hanoi - 44","level":"info"}
+{"message":"GET 200 /hanoi - 45","level":"info"}
+{"message":"GET 200 /hanoi - 47","level":"info"}
+{"message":"GET 200 /hanoi - 45","level":"info"}
+{"message":"GET 200 /hanoi - 48","level":"info"}
+{"message":"GET 200 /hanoi - 48","level":"info"}
+{"message":"GET 200 /hanoi - 43","level":"info"}
+{"message":"GET 200 /hanoi - 43","level":"info"}
+{"message":"GET 200 /hanoi - 41","level":"info"}
+{"message":"GET 200 /hanoi - 49","level":"info"}
+{"message":"GET 200 /hanoi - 48","level":"info"}
+{"message":"GET 200 /hanoi - 44","level":"info"}
+{"message":"GET 200 /hanoi - 52","level":"info"}
+{"message":"GET 200 /hanoi - 49","level":"info"}
+{"message":"GET 200 /hanoi - 44","level":"info"}
+{"message":"GET 200 /hanoi - 45","level":"info"}
+{"message":"GET 200 /hanoi - 43","level":"info"}
+{"message":"GET 200 /hanoi - 49","level":"info"}
+{"message":"GET 200 /hanoi - 49","level":"info"}
+{"message":"GET 200 /hanoi - 47","level":"info"}
+{"message":"GET 200 /hanoi - 43","level":"info"}
+{"message":"GET 200 /hanoi - 42","level":"info"}
+{"message":"GET 200 /hanoi - 45","level":"info"}
+{"message":"GET 200 /hanoi - 53","level":"info"}
+{"message":"GET 200 /hanoi - 46","level":"info"}
+{"message":"GET 200 /hanoi - 43","level":"info"}
+{"message":"GET 200 /hanoi - 44","level":"info"}
+{"message":"GET 200 /hanoi - 44","level":"info"}
+{"message":"GET 200 /hanoi - 44","level":"info"}
+{"message":"GET 200 /hanoi - 43","level":"info"}
+{"message":"GET 200 /hanoi - 44","level":"info"}
+{"message":"GET 200 /hanoi - 47","level":"info"}
+{"message":"GET 200 /hanoi - 49","level":"info"}
+{"message":"GET 200 /hanoi - 43","level":"info"}
+{"message":"GET 200 /hanoi - 44","level":"info"}
+{"message":"GET 200 /hanoi - 44","level":"info"}
+{"message":"GET 200 /hanoi - 51","level":"info"}
+{"message":"GET 200 /hanoi - 49","level":"info"}
+{"message":"GET 200 /hanoi - 52","level":"info"}
+{"message":"GET 200 /hanoi - 45","level":"info"}
+{"message":"GET 200 /hanoi - 52","level":"info"}
+{"message":"GET 200 /hanoi - 55","level":"info"}
+{"message":"GET 200 /hanoi - 44","level":"info"}
+{"message":"GET 200 /hanoi - 53","level":"info"}
+{"message":"GET 200 /hanoi - 52","level":"info"}
+{"message":"GET 200 /hanoi - 50","level":"info"}
+{"message":"GET 200 /hanoi - 52","level":"info"}
+{"message":"GET 200 /hanoi - 46","level":"info"}
+{"message":"GET 200 /hanoi - 45","level":"info"}
+{"message":"GET 200 /hanoi - 43","level":"info"}
+{"message":"GET 200 /hanoi - 52","level":"info"}
+{"message":"GET 200 /hanoi - 49","level":"info"}
+{"message":"GET 200 /hanoi - 47","level":"info"}
+{"message":"GET 200 /hanoi - 50","level":"info"}
+{"message":"GET 200 /hanoi - 54","level":"info"}
+{"message":"GET 200 /hanoi - 49","level":"info"}
+{"message":"GET 200 /hanoi - 42","level":"info"}
+{"message":"GET 200 /hanoi - 48","level":"info"}
+{"message":"GET 200 /hanoi - 50","level":"info"}
+{"message":"GET 200 /hanoi - 62","level":"info"}
+{"message":"GET 200 /hanoi - 49","level":"info"}
+{"message":"GET 200 /hanoi - 44","level":"info"}
+{"message":"GET 200 /hanoi - 48","level":"info"}
+{"message":"GET 200 /hanoi - 42","level":"info"}
+{"message":"GET 200 /hanoi - 46","level":"info"}
+{"message":"GET 200 /hanoi - 42","level":"info"}
+{"message":"GET 200 /hanoi - 50","level":"info"}
+{"message":"GET 200 /hanoi - 41","level":"info"}
+{"message":"GET 200 /hanoi - 42","level":"info"}
+{"message":"GET 200 /hanoi - 48","level":"info"}
+{"message":"GET 200 /hanoi - 48","level":"info"}
+{"message":"GET 200 /hanoi - 51","level":"info"}
+{"message":"GET 200 /hanoi - 45","level":"info"}
+{"message":"GET 200 /hanoi - 52","level":"info"}
+{"message":"GET 200 /hanoi - 51","level":"info"}
+{"message":"GET 200 /hanoi - 53","level":"info"}
+{"message":"GET 200 /hanoi - 46","level":"info"}
+{"message":"GET 200 /hanoi - 53","level":"info"}
+{"message":"GET 200 /hanoi - 47","level":"info"}
+{"message":"GET 200 /hanoi - 47","level":"info"}
+{"message":"GET 200 /hanoi - 50","level":"info"}
+{"message":"GET 200 /hanoi - 43","level":"info"}
+{"message":"GET 200 /hanoi - 44","level":"info"}
+{"message":"GET 200 /hanoi - 43","level":"info"}
+{"message":"GET 200 /hanoi - 53","level":"info"}
+{"message":"GET 200 /hanoi - 48","level":"info"}
+{"message":"GET 200 /hanoi - 46","level":"info"}
+{"message":"GET 200 /hanoi - 46","level":"info"}
+{"message":"GET 200 /hanoi - 41","level":"info"}
+{"message":"GET 200 /hanoi - 46","level":"info"}
+{"message":"GET 200 /hanoi - 45","level":"info"}
+{"message":"GET 200 /hanoi - 48","level":"info"}
+{"message":"GET 200 /hanoi - 44","level":"info"}
+{"message":"GET 200 /hanoi - 49","level":"info"}
+{"message":"GET 200 /hanoi - 44","level":"info"}
+{"message":"GET 200 /hanoi - 54","level":"info"}
+{"message":"GET 200 /hanoi - 48","level":"info"}
+{"message":"GET 200 /hanoi - 45","level":"info"}
+{"message":"GET 200 /hanoi - 43","level":"info"}
+{"message":"GET 200 /hanoi - 44","level":"info"}
+{"message":"GET 200 /hanoi - 47","level":"info"}
+{"message":"GET 200 /hanoi - 45","level":"info"}
+{"message":"GET 200 /hanoi - 47","level":"info"}
+{"message":"GET 200 /hanoi - 49","level":"info"}
+{"message":"GET 200 /hanoi - 45","level":"info"}
+{"message":"GET 200 /hanoi - 47","level":"info"}
+{"message":"GET 200 /hanoi - 49","level":"info"}
+{"message":"GET 200 /hanoi - 44","level":"info"}
+{"message":"GET 200 /hanoi - 42","level":"info"}
+{"message":"GET 200 /hanoi - 43","level":"info"}
+{"message":"GET 200 /hanoi - 43","level":"info"}
+{"message":"GET 200 /hanoi - 43","level":"info"}
+{"message":"GET 200 /hanoi - 44","level":"info"}
+{"message":"GET 200 /hanoi - 43","level":"info"}
+{"message":"GET 200 /hanoi - 46","level":"info"}
+{"message":"GET 200 /hanoi - 46","level":"info"}
+{"message":"GET 200 /hanoi - 46","level":"info"}
+{"message":"GET 200 /hanoi - 44","level":"info"}
+{"message":"GET 200 /hanoi - 50","level":"info"}
+{"message":"GET 200 /hanoi - 43","level":"info"}
+{"message":"GET 200 /hanoi - 42","level":"info"}
+{"message":"GET 200 /hanoi - 45","level":"info"}
+{"message":"GET 200 /hanoi - 44","level":"info"}
+{"message":"GET 200 /hanoi - 46","level":"info"}
+{"message":"GET 200 /hanoi - 45","level":"info"}
+{"message":"GET 200 /hanoi - 42","level":"info"}
+{"message":"GET 200 /hanoi - 44","level":"info"}
+{"message":"GET 200 /hanoi - 46","level":"info"}
+{"message":"GET 200 /hanoi - 47","level":"info"}
+{"message":"GET 200 /hanoi - 47","level":"info"}
+{"message":"GET 200 /hanoi - 46","level":"info"}
+{"message":"GET 200 /hanoi - 53","level":"info"}
+{"message":"GET 200 /hanoi - 46","level":"info"}
+{"message":"GET 200 /hanoi - 45","level":"info"}
+{"message":"GET 200 /hanoi - 44","level":"info"}
+{"message":"GET 200 /hanoi - 50","level":"info"}
+{"message":"GET 200 /hanoi - 46","level":"info"}
+{"message":"GET 200 /hanoi - 44","level":"info"}
+{"message":"GET 200 /hanoi - 42","level":"info"}
+{"message":"GET 200 /hanoi - 46","level":"info"}
+{"message":"GET 200 /hanoi - 45","level":"info"}
+{"message":"GET 200 /hanoi - 46","level":"info"}
+{"message":"GET 200 /hanoi - 44","level":"info"}
+{"message":"GET 200 /hanoi - 43","level":"info"}
+{"message":"GET 200 /hanoi - 45","level":"info"}
+{"message":"GET 200 /hanoi - 46","level":"info"}
+{"message":"GET 200 /hanoi - 49","level":"info"}
+{"message":"GET 200 /hanoi - 47","level":"info"}
+{"message":"GET 200 /hanoi - 47","level":"info"}
+{"message":"GET 200 /hanoi - 43","level":"info"}
+{"message":"GET 200 /hanoi - 42","level":"info"}
+{"message":"GET 200 /hanoi - 42","level":"info"}
+{"message":"GET 200 /hanoi - 44","level":"info"}
+{"message":"GET 200 /hanoi - 42","level":"info"}
+{"message":"GET 200 /hanoi - 41","level":"info"}
+{"message":"GET 200 /hanoi - 42","level":"info"}
+{"message":"GET 200 /hanoi - 46","level":"info"}
+{"message":"GET 200 /hanoi - 44","level":"info"}
+{"message":"GET 200 /hanoi - 45","level":"info"}
+{"message":"GET 200 /hanoi - 44","level":"info"}
+{"message":"GET 200 /hanoi - 42","level":"info"}
+{"message":"GET 200 /hanoi - 41","level":"info"}
+{"message":"GET 200 /hanoi - 41","level":"info"}
+{"message":"GET 200 /hanoi - 41","level":"info"}
+{"message":"GET 200 /hanoi - 45","level":"info"}
+{"message":"GET 200 /hanoi - 42","level":"info"}
+{"message":"GET 200 /hanoi - 47","level":"info"}
+{"message":"GET 200 /hanoi - 56","level":"info"}
+{"message":"GET 200 /hanoi - 61","level":"info"}
+{"message":"GET 200 /hanoi - 42","level":"info"}
+{"message":"GET 200 /hanoi - 43","level":"info"}
+{"message":"GET 200 /hanoi - 42","level":"info"}
+{"message":"GET 200 /hanoi - 47","level":"info"}
+{"message":"GET 200 /hanoi - 44","level":"info"}
+{"message":"GET 200 /hanoi - 43","level":"info"}
+{"message":"GET 200 /hanoi - 43","level":"info"}
+{"message":"GET 200 /hanoi - 41","level":"info"}
+{"message":"GET 200 /hanoi - 45","level":"info"}
+{"message":"GET 200 /hanoi - 43","level":"info"}
+{"message":"GET 200 /hanoi - 47","level":"info"}

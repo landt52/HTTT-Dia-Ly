@@ -16,7 +16,7 @@ app.use(async (ctx, next)=>{
 	log.info(`${ctx.method} ${ctx.status} ${ctx.url} - ${responseTime}`);
 });
 
-app.use(async (ctx, next)=>{
+app.use(async (ctx, next) => {
 	try{
 		await next();
 	} catch(err){

@@ -1,0 +1,39 @@
+@import "../../_variable.scss";
+
+.map-container{
+	background: $color-lightDark;
+	height: 90rem;
+	width: 190rem;
+	position: relative;
+	top: 0;
+	left: 0;
+
+	.leftlet-popup{
+		bottom: 0;
+	}
+
+	.leftlet-popup-content{
+		user-select: none;
+		cursor: pointer;
+	}
+
+	.leaflet-popup-content-wrapper, .leaflet-popup-tip{
+		background: $color-lightDark;
+		color: $color-white;
+		text-align: center;
+	}
+	
+	.leaflet-control-zoom {
+	    border: none;
+	}
+
+    .leaflet-control-zoom-in, .leaflet-control-zoom-out {
+	    background: $color-lightDark;
+	    color: $color-white;
+	    border: none;
+	}
+
+    .leaflet-control-attribution {
+	    display: none;
+	}
+}

@@ -26,3 +26,26 @@
 {"message":"Request Error /hanoi - database.getKingdomBoundaries is not a function","level":"error"}
 {"message":"Request Error /hanoi - column \"id\" does not exist","level":"error"}
 {"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":5422,"level":"error"}
+{"message":"Request Error /hanoi/1/size - Bad Request","level":"error"}
+{"message":"Request Error /hanoi/211/size - Bad Request","level":"error"}
+{"message":"Request Error /hanoi/212/size - Bad Request","level":"error"}
+{"message":"Request Error /hanoi/240/size - Bad Request","level":"error"}
+{"message":"Request Error /hanoi/240/size - Bad Request","level":"error"}
+{"message":"Request Error /hanoi/240/size - Bad Request","level":"error"}
+{"message":"Request Error /hanoi/240/size - Bad Request","level":"error"}
+{"message":"Request Error /hanoi/240/size - Bad Request","level":"error"}
+{"message":"Request Error /hanoi/240/size - Bad Request","level":"error"}
+{"message":"Request Error /hanoi/240/size - Bad Request","level":"error"}
+{"message":"Request Error /hanoi/240/size - Bad Request","level":"error"}
+{"message":"Request Error /hanoi/240/size - Bad Request","level":"error"}
+{"message":"Request Error /hanoi/1/size - Bad Request","level":"error"}
+{"message":"Request Error /hanoi/1/size - Bad Request","level":"error"}
+{"message":"Request Error /hanoi/Ung%Hoa/size - Bad Request","level":"error"}
+{"message":"Request Error /hanoi/Ung%Hoa/size - Bad Request","level":"error"}
+{"message":"Request Error /hanoi/221/size - Bad Request","level":"error"}
+{"message":"Request Error /hanoi/221/size - Bad Request","level":"error"}
+{"message":"Request Error /hanoi/221/size - Bad Request","level":"error"}
+{"message":"Request Error /hanoi/221/size - Bad Request","level":"error"}
+{"message":"Request Error /hanoi/221/size - alert is not defined","level":"error"}
+{"message":"Request Error /hanoi/221/size - squareKM is not defined","level":"error"}
+{"message":"Request Error /hanoi/221/size - sub is not defined","level":"error"}
