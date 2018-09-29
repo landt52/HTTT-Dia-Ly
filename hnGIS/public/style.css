@@ -61,7 +61,7 @@ a {
   margin: 0 auto;
   background: #333;
   overflow-y: scroll;
-  font-size: 1rem;
+  font-size: 1.7rem;
   line-height: 1.25em;
   font-weight: 300; }
 
@@ -69,7 +69,7 @@ a {
   position: absolute;
   overflow-y: hidden;
   bottom: 0;
-  left: 24px;
+  left: 2.4rem;
   z-index: 1000;
   background: #222;
   width: 50rem;
@@ -87,17 +87,6 @@ a {
   overflow-x: hidden;
   position: relative;
   height: 80%; }
-
-.info-footer {
-  font-size: 0.8rem;
-  font-family: "Lato", sans-serif;
-  padding: 8%;
-  text-align: center;
-  text-transform: uppercase; }
-
-.blog-link {
-  letter-spacing: 0.1rem;
-  font-weight: bold; }
 
 .map-container {
   background: #333;

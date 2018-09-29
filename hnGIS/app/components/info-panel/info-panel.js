@@ -6,8 +6,9 @@ const template = `<div ref="container" class="info-container">
                       <div class="info-body">
                           <div class="info-content-container">
                               <div ref="content" class="info-content"></div>
-                              </div>
+                              <input type="color" id="color" name="color" value="#ff0000">
                           </div>
+                      </div>
                   </div>`
 
 export class InfoPanel extends Component{
@@ -27,6 +28,7 @@ export class InfoPanel extends Component{
         let districtSize = await this.api.getAllDistrictDetails(id)
         districtSize=districtSize.districtSize.toFixed(2)
         return `<h3>Quận/Huyện</h3>
-                <div>Kích thước - khoảng ${districtSize} km<sup>2</sup></div>`
+                <div>Kích thước - khoảng ${districtSize} km<sup>2</sup></div>
+                `
     }
 }

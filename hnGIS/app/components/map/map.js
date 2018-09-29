@@ -34,20 +34,27 @@ export class Map extends Component {
     	layer.on({click: (e)=>{
     		const {name, id} = feature.properties
     		this.map.closePopup()
-    		this.setHighlightedRegion(layer)
+    		// this.setHighlightedRegion(layer)
     		this.triggerEvent('locationSelected', {name, id})
+            this.changeColor(layer)
     	}})
     }
 
-    setHighlightedRegion(layer){
-    	if(this.selected){
-    		this.layers.district.resetStyle(this.selected)
-    	}
-    	this.selected = layer
-    	if(this.selected){
-    		this.selected.bringToFront()
-    		this.selected.setStyle({color: 'blue'})
-    	}
+    // setHighlightedRegion(layer){
+    // 	if(this.selected){
+    // 		this.layers.district.resetStyle(this.selected)
+    // 	}
+    // 	this.selected = layer
+    // 	if(this.selected){
+    // 		this.selected.bringToFront()
+    //         this.selected.setStyle({ color: 'blue' })
+    // 	}
+    // }
+
+    changeColor(layer){
+        var colorButton = document.getElementById('colorButton')
+        var color = document.getElementById('color')
+        layer.setStyle({color: color.value})
     }
 
 	toggleLayer(layerName){
