@@ -35,7 +35,7 @@ export class Map extends Component {
     		const {name, id} = feature.properties
     		this.map.closePopup()
     		// this.setHighlightedRegion(layer)
-    		this.triggerEvent('locationSelected', {name, id})
+    		this.triggerEvent('locationSelected', {name, id})   
             this.changeColor(layer)
     	}})
     }
@@ -54,7 +54,10 @@ export class Map extends Component {
     changeColor(layer){
         var colorButton = document.getElementById('colorButton')
         var color = document.getElementById('color')
-        layer.setStyle({color: color.value})
+        console.log(layer)
+        colorButton.addEventListener('click', function(){
+            layer.setStyle({color: color.value})
+        })
     }
 
 	toggleLayer(layerName){

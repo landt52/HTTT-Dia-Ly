@@ -7,6 +7,7 @@ const template = `<div ref="container" class="info-container">
                           <div class="info-content-container">
                               <div ref="content" class="info-content"></div>
                               <input type="color" id="color" name="color" value="#ff0000">
+                              <input type="submit" id="colorButton">
                           </div>
                       </div>
                   </div>`

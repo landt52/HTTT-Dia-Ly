@@ -10,7 +10,7 @@ export class ApiService{
 		return response.data
 	}
 
-	getCityBoundaries(){
+	getDistrictsBoundaries(){
 		return this.httpGet(`hanoi`)
 	}
 

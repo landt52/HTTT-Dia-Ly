@@ -31,7 +31,7 @@ class ViewController{
 	}
 
 	async loadMapData(){
-		const districtGeojson = await this.api.getCityBoundaries()
+		const districtGeojson = await this.api.getDistrictsBoundaries()
 		this.mapComponent.addDistrictGeojson(districtGeojson)
 		this.mapComponent.toggleLayer('district')
 	}
