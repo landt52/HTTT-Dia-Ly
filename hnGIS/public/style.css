@@ -5,7 +5,9 @@
   box-sizing: inherit; }
 
 html {
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  height: 100%;
+  width: 100%; }
 
 body {
   box-sizing: border-box;
@@ -90,8 +92,8 @@ a {
 
 .map-container {
   background: #333;
-  height: 90rem;
-  width: 190rem;
+  height: 100vh;
+  width: 100vw;
   position: relative;
   top: 0;
   left: 0; }
@@ -110,5 +112,3 @@ a {
     background: #333;
     color: #faebd7;
     border: none; }
-  .map-container .leaflet-control-attribution {
-    display: none; }

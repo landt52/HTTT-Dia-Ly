@@ -1,4 +1,7 @@
 import L from 'leaflet'
+import '../../../node_modules/leaflet/dist/Leaflet.PolylineMeasure.js'
+import '../../../node_modules/leaflet-routing-machine/dist/leaflet-routing-machine.min.js'
+import '../../../node_modules/leaflet-control-geocoder-1.6.0/dist/Control.Geocoder.js'
 import { Component } from '../component'
 
 const template = '<div ref="mapContainer" class="map-container"></div>'
@@ -11,10 +14,24 @@ export class Map extends Component {
 		    center: [ 21.028511, 105.804817 ],
 		    zoom: 10,
 		    maxZoom: 20,
-		    minZoom: 10
+		    minZoom: 6,
+		    layers: [
+	        			new L.TileLayer(
+	            			'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+	           				{
+	               		 		attribution: 'Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
+	            			}
+	        			)
+    				]
 	    })
-
-	    this.map.zoomControl.setPosition('bottomright') 
+	    L.control.polylineMeasure({position:'topleft', unit:'metres', showBearings:true, clearMeasurementsOnStop: false, showClearControl: true, showUnitControl: true}).addTo(this.map)
+        L.Control.geocoder().addTo(this.map);
+        L.Routing.control({
+            routeWhileDragging: true,
+            geocoder: L.Control.Geocoder.nominatim(),
+            router: L.Routing.mapbox('pk.eyJ1IjoibGFuZHQ1MiIsImEiOiJjam1yajJ1OHAwMWg4M3RvYmVoZDdmc21sIn0.M2RTMfWf_QFThhS7Q4ESnA')
+        }).addTo(this.map)
+	    this.map.zoomControl.setPosition('topleft') 
 	    this.layers = {} 
 	    this.selectedRegion = null 
     }
@@ -54,10 +71,7 @@ export class Map extends Component {
     changeColor(layer){
         var colorButton = document.getElementById('colorButton')
         var color = document.getElementById('color')
-        console.log(layer)
-        colorButton.addEventListener('click', function(){
             layer.setStyle({color: color.value})
-        })
     }
 
 	toggleLayer(layerName){
