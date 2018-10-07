@@ -14,7 +14,7 @@ export class ApiService{
 	    return this.httpGet(`locations/${type}`)
 	}
 
-	getLocationSummary (id){
+	getLocationSummary(id){
 	    return this.httpGet(`locations/${id}/summary`)
 	}
 

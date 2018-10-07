@@ -45,7 +45,6 @@ export class Map extends Component {
             },
             onEachFeature: this.onEachLocation.bind(this)
         })
-        console.log()
     }
 
     onEachLocation(feature, layer){
@@ -65,7 +64,6 @@ export class Map extends Component {
     		},
     		onEachFeature: this.onEachDistrict.bind(this)
     	})
-        console.log(geojson)
     }
 
     onEachDistrict(feature, layer){
