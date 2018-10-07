@@ -101,4 +101,24 @@ export class Map extends Component {
 			this.map.addLayer(layer)
 		}
 	}
+
+    isLayerShowing (layerName) {
+        return this.map.hasLayer(this.layers[layerName])
+    }
+
+    selectLocation (id, layerName) {
+        const geojsonLayer = this.layers[layerName]
+        const sublayers = geojsonLayer.getLayers()
+        const selectedSublayer = sublayers.find(layer => {
+            return layer.feature.geometry.properties.id === id
+        })
+
+        if (selectedSublayer.feature.geometry.type === 'Point') {
+            this.map.flyTo(selectedSublayer.getLatLng(), 15)
+        } else {
+            this.map.flyToBounds(selectedSublayer.getBounds(), 10)
+        }
+
+        selectedSublayer.fireEvent('click')
+    }
 }

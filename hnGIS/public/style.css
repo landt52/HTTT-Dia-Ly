@@ -39,7 +39,7 @@ a {
 
 .info-title {
   font-family: "MedievalSharp", cursive;
-  height: 8rem;
+  height: 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -78,13 +78,13 @@ a {
   height: 60vh;
   color: #faebd7;
   transition: all 0.4s ease-in-out;
-  transform: translateY(calc(100% - 8rem)); }
+  transform: translateY(calc(100% - 5rem)); }
 
 .info-container.info-active {
   transform: translateY(0); }
 
 .info-body {
-  margin-top: 8rem;
+  margin-top: 5rem;
   overflow-y: scroll;
   overflow-x: hidden;
   position: relative;
@@ -112,3 +112,48 @@ a {
     background: #333;
     color: #faebd7;
     border: none; }
+
+.search-container {
+  position: absolute;
+  top: 20rem;
+  left: 1rem;
+  background: transparent;
+  z-index: 1000;
+  color: #faebd7;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif; }
+  .search-container input[type=text] {
+    width: 6rem;
+    transition: width 0.4s ease-in-out;
+    cursor: pointer; }
+  .search-container input[type=text]:focus {
+    width: 50rem;
+    outline: none;
+    cursor: text; }
+
+.search-results {
+  margin-top: .4rem;
+  border-radius: .4rem;
+  background: #222; }
+  .search-results div {
+    font-size: 1.6rem;
+    padding: 1.6rem;
+    cursor: pointer; }
+  .search-results div:hover {
+    background: #333; }
+
+.search-bar, .search-input {
+  height: 6rem; }
+
+.search-input {
+  background-color: #222;
+  color: #faebd7;
+  border: 0.3rem #333 solid;
+  border-radius: .4rem;
+  font-size: 1.6rem;
+  padding: .4rem;
+  background-image: url("https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_search_white_18px.svg");
+  background-position: 2rem 1.7rem;
+  background-size: 2.4rem 2.4rem;
+  background-repeat: no-repeat;
+  padding-left: 6rem; }
