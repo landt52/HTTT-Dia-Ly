@@ -36,6 +36,26 @@ export class Map extends Component {
 	    this.selectedRegion = null 
     }
 
+    addLocationGeojson (layerTitle, geojson, iconUrl) {
+        this.layers[layerTitle] = L.geoJSON(geojson, {
+            pointToLayer: (feature, latlng) =>{
+                return L.marker(latlng, {
+                    icon: L.icon({ iconUrl, iconSize: [40, 80] }),
+                    title: feature.properties.name })
+            },
+            onEachFeature: this.onEachLocation.bind(this)
+        })
+        console.log()
+    }
+
+    onEachLocation(feature, layer){
+        layer.bindPopup(feature.properties.name, {closeButton: false})
+        layer.on({click: (e)=>{
+            const {name, id, type} = feature.properties
+            this.triggerEvent('locationSelected', { name, id, type })
+        }})
+    }
+
     addDistrictGeojson(geojson){
     	this.layers.district = L.geoJSON(geojson, {
     		style: {
@@ -45,6 +65,7 @@ export class Map extends Component {
     		},
     		onEachFeature: this.onEachDistrict.bind(this)
     	})
+        console.log(geojson)
     }
 
     onEachDistrict(feature, layer){
@@ -52,7 +73,7 @@ export class Map extends Component {
     		const {name, id} = feature.properties
     		this.map.closePopup()
     		// this.setHighlightedRegion(layer)
-    		this.triggerEvent('locationSelected', {name, id})   
+    		this.triggerEvent('locationSelected', {name, id, type: 'district'})   
             this.changeColor(layer)
     	}})
     }

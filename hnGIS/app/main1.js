@@ -14,11 +14,12 @@ class ViewController{
 		document.getElementById('app').outerHTML = template
 		this.initializeComponents()
 		this.api = new ApiService('http://localhost:5000/')
+		this.locationPointTypes = ['airport', 'hospital']
 		this.initializeComponents()
     	this.loadMapData()
 	}
 
-	initializeComponents () {
+	initializeComponents(){
 	    this.infoComponent = new InfoPanel('info-panel-placeholder', {
 	    	data: {apiService: this.api}
 	    })
@@ -34,6 +35,16 @@ class ViewController{
 		const districtGeojson = await this.api.getDistrictsBoundaries()
 		this.mapComponent.addDistrictGeojson(districtGeojson)
 		this.mapComponent.toggleLayer('district')
+
+		for(let locationType of this.locationPointTypes){
+			const geojson = await this.api.getLocations(locationType)
+			this.mapComponent.addLocationGeojson(locationType, geojson, this.getIcon(locationType))
+			this.mapComponent.toggleLayer(locationType)
+		}
+	}
+
+	getIcon(layerName){
+	    return `http://localhost:5000/svg/${layerName}`
 	}
 }
 

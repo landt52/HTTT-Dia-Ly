@@ -7,7 +7,6 @@ const template = `<div ref="container" class="info-container">
                           <div class="info-content-container">
                               <div ref="content" class="info-content"></div>
                               <input type="color" id="color" name="color" value="#ff0000">
-                              <input type="submit" id="colorButton">
                           </div>
                       </div>
                   </div>`
@@ -28,8 +27,8 @@ export class InfoPanel extends Component{
     async getDistrictDetails(id){
         let districtSize = await this.api.getAllDistrictDetails(id)
         districtSize=districtSize.districtSize.toFixed(2)
-        return `<h3>Quận/Huyện</h3>
-                <div>Kích thước - khoảng ${districtSize} km<sup>2</sup></div>
+        return `<h3>District</h3>
+                <div>Size Estimate: ${districtSize} km<sup>2</sup></div>
                 `
     }
 }

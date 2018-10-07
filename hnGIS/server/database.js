@@ -15,7 +15,16 @@ client.connect().then(()=>{
 }).catch(log.error)
 
 module.exports = {
-	getCityBoundaries: async ()=>{
+	getLocations: async (type) => {
+		const locationQuery = `
+		    SELECT ST_AsGeoJSON(ST_MakePoint(lng, lat),4326), name, type, gid
+		    FROM locations
+		    WHERE UPPER(type) = UPPER($1);`;
+		const result = await client.query(locationQuery, [type]);
+		return result.rows;
+	},
+
+	getCityBoundaries: async () =>{
 	  	const boundaryQuery = `
 	    	SELECT ST_AsGeoJSON(geom), name_2, gid
 	    	FROM districts;`;
@@ -23,7 +32,7 @@ module.exports = {
 	  	return result.rows;
 	},
 
-	getDistrictSize: async (id)=>{
+	getDistrictSize: async (id) =>{
 		const sizeQuery = `
 			SELECT ST_AREA(geom) as size
 			FROM districts
@@ -31,7 +40,21 @@ module.exports = {
 			LIMIT(1);`;
 		const result = await client.query(sizeQuery, [id]);
 		return result.rows[0];
-	}
+	},
+
+	getSummary: async (table, id) => {
+		if (table !== 'locations') {
+		    throw new Error(`Invalid Table - ${table}`);
+		}
+
+		const summaryQuery = `
+		    SELECT summary
+		    FROM ${table}
+		    WHERE gid = $1
+		    LIMIT(1);`;
+		const result = await client.query(summaryQuery, [id]);
+		return result.rows[0];
+		}
 }
 
 

@@ -5,7 +5,7 @@
 -- Dumped from database version 9.6.10
 -- Dumped by pg_dump version 9.6.10
 
--- Started on 2018-09-29 13:56:25
+-- Started on 2018-10-07 12:22:53
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -36,7 +36,7 @@ CREATE EXTENSION IF NOT EXISTS plpgsql WITH SCHEMA pg_catalog;
 
 
 --
--- TOC entry 3738 (class 0 OID 0)
+-- TOC entry 3750 (class 0 OID 0)
 -- Dependencies: 1
 -- Name: EXTENSION plpgsql; Type: COMMENT; Schema: -; Owner: 
 --
@@ -53,7 +53,7 @@ CREATE EXTENSION IF NOT EXISTS hstore WITH SCHEMA public;
 
 
 --
--- TOC entry 3739 (class 0 OID 0)
+-- TOC entry 3751 (class 0 OID 0)
 -- Dependencies: 3
 -- Name: EXTENSION hstore; Type: COMMENT; Schema: -; Owner: 
 --
@@ -70,7 +70,7 @@ CREATE EXTENSION IF NOT EXISTS postgis WITH SCHEMA public;
 
 
 --
--- TOC entry 3740 (class 0 OID 0)
+-- TOC entry 3752 (class 0 OID 0)
 -- Dependencies: 4
 -- Name: EXTENSION postgis; Type: COMMENT; Schema: -; Owner: 
 --
@@ -87,7 +87,7 @@ CREATE EXTENSION IF NOT EXISTS postgis_topology WITH SCHEMA topology;
 
 
 --
--- TOC entry 3741 (class 0 OID 0)
+-- TOC entry 3753 (class 0 OID 0)
 -- Dependencies: 2
 -- Name: EXTENSION postgis_topology; Type: COMMENT; Schema: -; Owner: 
 --
@@ -124,6 +124,47 @@ CREATE TABLE public.districts (
 ALTER TABLE public.districts OWNER TO postgres;
 
 --
+-- TOC entry 213 (class 1259 OID 22666)
+-- Name: locations; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.locations (
+    gid integer NOT NULL,
+    name character varying(100),
+    type character varying(100),
+    lat double precision,
+    lng double precision,
+    summary text
+);
+
+
+ALTER TABLE public.locations OWNER TO postgres;
+
+--
+-- TOC entry 212 (class 1259 OID 22664)
+-- Name: locations_gid_seq; Type: SEQUENCE; Schema: public; Owner: postgres
+--
+
+CREATE SEQUENCE public.locations_gid_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+ALTER TABLE public.locations_gid_seq OWNER TO postgres;
+
+--
+-- TOC entry 3754 (class 0 OID 0)
+-- Dependencies: 212
+-- Name: locations_gid_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
+--
+
+ALTER SEQUENCE public.locations_gid_seq OWNED BY public.locations.gid;
+
+
+--
 -- TOC entry 210 (class 1259 OID 21699)
 -- Name: vnm_adm2_gid_seq; Type: SEQUENCE; Schema: public; Owner: postgres
 --
@@ -139,7 +180,7 @@ CREATE SEQUENCE public.vnm_adm2_gid_seq
 ALTER TABLE public.vnm_adm2_gid_seq OWNER TO postgres;
 
 --
--- TOC entry 3742 (class 0 OID 0)
+-- TOC entry 3755 (class 0 OID 0)
 -- Dependencies: 210
 -- Name: vnm_adm2_gid_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
 --
@@ -148,7 +189,7 @@ ALTER SEQUENCE public.vnm_adm2_gid_seq OWNED BY public.districts.gid;
 
 
 --
--- TOC entry 3601 (class 2604 OID 21704)
+-- TOC entry 3608 (class 2604 OID 21704)
 -- Name: districts gid; Type: DEFAULT; Schema: public; Owner: postgres
 --
 
@@ -156,7 +197,15 @@ ALTER TABLE ONLY public.districts ALTER COLUMN gid SET DEFAULT nextval('public.v
 
 
 --
--- TOC entry 3730 (class 0 OID 21701)
+-- TOC entry 3609 (class 2604 OID 22669)
+-- Name: locations gid; Type: DEFAULT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.locations ALTER COLUMN gid SET DEFAULT nextval('public.locations_gid_seq'::regclass);
+
+
+--
+-- TOC entry 3740 (class 0 OID 21701)
 -- Dependencies: 211
 -- Data for Name: districts; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -195,7 +244,29 @@ COPY public.districts (gid, id_0, iso, name_0, id_1, name_1, id_2, name_2, type_
 
 
 --
--- TOC entry 3596 (class 0 OID 16691)
+-- TOC entry 3742 (class 0 OID 22666)
+-- Dependencies: 213
+-- Data for Name: locations; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.locations (gid, name, type, lat, lng, summary) FROM stdin;
+1	Noi Bai International Airport	Airport	21.218714899999998	105.8041709	https://en.wikipedia.org/wiki/Noi_Bai_International_Airport
+3	Viet Duc Hospital	Hospital	21.027531	105.84734	https://en.wikipedia.org/wiki/Vietnam_%E2%80%93_Germany_Hospital
+2	Bach Mai Hospital	Hospital	21.002908999999999	105.83973400000001	https://en.wikipedia.org/wiki/B%E1%BA%A1ch_Mai_Hospital
+\.
+
+
+--
+-- TOC entry 3756 (class 0 OID 0)
+-- Dependencies: 212
+-- Name: locations_gid_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.locations_gid_seq', 3, true);
+
+
+--
+-- TOC entry 3603 (class 0 OID 16691)
 -- Dependencies: 190
 -- Data for Name: spatial_ref_sys; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -205,7 +276,7 @@ COPY public.spatial_ref_sys (srid, auth_name, auth_srid, srtext, proj4text) FROM
 
 
 --
--- TOC entry 3743 (class 0 OID 0)
+-- TOC entry 3757 (class 0 OID 0)
 -- Dependencies: 210
 -- Name: vnm_adm2_gid_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
@@ -214,7 +285,7 @@ SELECT pg_catalog.setval('public.vnm_adm2_gid_seq', 678, true);
 
 
 --
--- TOC entry 3594 (class 0 OID 17873)
+-- TOC entry 3601 (class 0 OID 17873)
 -- Dependencies: 205
 -- Data for Name: topology; Type: TABLE DATA; Schema: topology; Owner: postgres
 --
@@ -224,7 +295,7 @@ COPY topology.topology (id, name, srid, "precision", hasz) FROM stdin;
 
 
 --
--- TOC entry 3595 (class 0 OID 17886)
+-- TOC entry 3602 (class 0 OID 17886)
 -- Dependencies: 206
 -- Data for Name: layer; Type: TABLE DATA; Schema: topology; Owner: postgres
 --
@@ -234,7 +305,16 @@ COPY topology.layer (topology_id, layer_id, schema_name, table_name, feature_col
 
 
 --
--- TOC entry 3604 (class 2606 OID 21709)
+-- TOC entry 3614 (class 2606 OID 22674)
+-- Name: locations locations_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.locations
+    ADD CONSTRAINT locations_pkey PRIMARY KEY (gid);
+
+
+--
+-- TOC entry 3612 (class 2606 OID 21709)
 -- Name: districts vnm_adm2_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
@@ -243,14 +323,14 @@ ALTER TABLE ONLY public.districts
 
 
 --
--- TOC entry 3602 (class 1259 OID 22071)
+-- TOC entry 3610 (class 1259 OID 22071)
 -- Name: vnm_adm2_geom_idx; Type: INDEX; Schema: public; Owner: postgres
 --
 
 CREATE INDEX vnm_adm2_geom_idx ON public.districts USING gist (geom);
 
 
--- Completed on 2018-09-29 13:56:29
+-- Completed on 2018-10-07 12:22:55
 
 --
 -- PostgreSQL database dump complete

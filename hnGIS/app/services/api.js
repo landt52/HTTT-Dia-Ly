@@ -10,6 +10,14 @@ export class ApiService{
 		return response.data
 	}
 
+	getLocations (type){
+	    return this.httpGet(`locations/${type}`)
+	}
+
+	getLocationSummary (id){
+	    return this.httpGet(`locations/${id}/summary`)
+	}
+
 	getDistrictsBoundaries(){
 		return this.httpGet(`hanoi`)
 	}
