@@ -2,7 +2,6 @@ const serve = require('koa-static');
 const Router = require('koa-router');
 const database = require('./database');
 
-
 const router = new Router();
 
 router.all("/svg/:type", async(ctx, next) => 

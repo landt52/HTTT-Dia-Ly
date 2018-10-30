@@ -102,10 +102,6 @@ export class Map extends Component {
 		}
 	}
 
-    isLayerShowing (layerName) {
-        return this.map.hasLayer(this.layers[layerName])
-    }
-
     selectLocation (id, layerName) {
         const geojsonLayer = this.layers[layerName]
         const sublayers = geojsonLayer.getLayers()

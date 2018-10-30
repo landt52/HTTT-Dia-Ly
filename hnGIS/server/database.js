@@ -24,7 +24,7 @@ module.exports = {
 		return result.rows;
 	},
 
-	getCityBoundaries: async () =>{
+	getCityBoundaries: async () => {
 	  	const boundaryQuery = `
 	    	SELECT ST_AsGeoJSON(geom), name_2, gid
 	    	FROM districts;`;
@@ -32,7 +32,7 @@ module.exports = {
 	  	return result.rows;
 	},
 
-	getDistrictSize: async (id) =>{
+	getDistrictSize: async (id) => {
 		const sizeQuery = `
 			SELECT ST_AREA(geom) as size
 			FROM districts
@@ -54,7 +54,39 @@ module.exports = {
 		    LIMIT(1);`;
 		const result = await client.query(summaryQuery, [id]);
 		return result.rows[0];
-		}
+	},
+
+	getUser: async () => {
+		const userQuery = `
+			SELECT *
+			FROM users`;
+		const result = await client.query(userQuery);
+		return result.rows;
+	},
+
+	getDistrictsName: async () => {
+		const districtsNameQuery = `
+			SELECT name_2
+			FROM districts`;
+		const results = await client.query(districtsNameQuery);
+		return results.rows;
+	},
+
+	getAllLocationsInfo: async () => {
+		const allLocationsInfoQuery = `
+			SELECT *
+			FROM locations`;
+		const result = await client.query(allLocationsInfoQuery);
+		return result.rows;
+	},
+
+	getLocationsType: async () => {
+		const locationsType = `
+			SELECT DISTINCT type
+			FROM locations`;
+		const result = await client.query(locationsType);
+		return result.rows;	
+	}
 }
 
 

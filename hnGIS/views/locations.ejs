@@ -1,0 +1,21 @@
+<table>
+    <tr>
+	    <th>Name</th>
+	    <th>Type</th>
+	    <th>Latitude</th>
+	    <th>Longitude</th>
+	    <th>Summary</th>
+	    <th>Website</th>
+    </tr>
+    <% results.forEach(locations => { %>
+	    <tr>   
+			<td><%= locations.name %></td>
+			<td><%= locations.type %></td>
+			<td><%= locations.lat %></td>
+			<td><%= locations.lng %></td>
+			<td><%= locations.summary %></td>
+			<td><%= locations.website %></td>
+	    </tr>
+	<% }) %>
+</table>
+<a href="/locations/add"><button>Add</button></a>
