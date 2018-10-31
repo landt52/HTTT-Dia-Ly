@@ -48,6 +48,8 @@ route.use(api.routes(), api.allowedMethods());
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
 app.use(express.static(__dirname + "public"));
+app.use('/css', express.static('public/css'));
+app.use('/js', express.static('public/js'));
 
 app.use(require('express-session')({
   secret: "My secret",
@@ -118,8 +120,9 @@ app.post("/locations/add", async function(req, res){
 
 app.get("/locations/update/:id", async function(req, res){
 	const id = req.params.id;
+	const type = await database.getLocationsType()
 	const result = await database.getLocationToUpdate(id);
-	res.render("update", {result: result.rows[0]});
+	res.render("update", {result: result.rows[0], type: type});
 });
 
 app.post("/locations/update", async function(req, res){

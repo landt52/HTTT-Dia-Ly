@@ -5,7 +5,7 @@
 -- Dumped from database version 9.6.10
 -- Dumped by pg_dump version 9.6.10
 
--- Started on 2018-10-31 15:30:22
+-- Started on 2018-10-31 22:27:33
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -306,6 +306,29 @@ COPY public.locations (gid, name, type, lat, lng, summary, website) FROM stdin;
 47	Viet Phu Thanh Chuong	Tourist Attraction	21.277304000000001	105.803811	https://www.vntrip.vn/cam-nang/du-lich-viet-phu-thanh-chuong-13238	https://www.vntrip.vn/cam-nang/du-lich-viet-phu-thanh-chuong-13238
 48	Chu Dong Tu Temple	Tourist Attraction	20.880773000000001	105.929011	https://vi.wikipedia.org/wiki/Ch%E1%BB%AD_%C4%90%E1%BB%93ng_T%E1%BB%AD	https://mytour.vn/location/2011-den-chu-dong-tu.html
 49	Huong Pagoda	Tourist Attraction	20.619323999999999	105.744838	https://vi.wikipedia.org/wiki/Ch%C3%B9a_H%C6%B0%C6%A1ng	https://www.vntrip.vn/cam-nang/chua-huong-39945
+50	Cuc Phuong National Park	Tourist Attraction	20.321375	105.60924	https://vi.wikipedia.org/wiki/V%C6%B0%E1%BB%9Dn_qu%E1%BB%91c_gia_C%C3%BAc_Ph%C6%B0%C6%A1ng	https://www.vntrip.vn/cam-nang/vuon-quoc-gia-cuc-phuong-11999
+51	Thien Son Suoi Nga	Tourist Attraction	21.072385000000001	105.387311	https://vi.wikipedia.org/wiki/Thi%C3%AAn_S%C6%A1n_-_Su%E1%BB%91i_Ng%C3%A0	https://mytour.vn/location/6844-thien-son-suoi-nga-vuon-dia-dang-giua-chon-nhan-gian.html
+52	Khoang Xanh Suoi Tien	Tourist Attraction	21.047771000000001	105.397429	https://vi.wikipedia.org/wiki/Khoang_Xanh	https://www.vntrip.vn/cam-nang/khoang-xanh-suoi-tien-9747
+53	Dam Long	Tourist Attraction	21.173677000000001	105.33446600000001	http://www.nuibavi.com/kdl/dam-long.html	https://dulichfun.com/kinh-nghiem-du-lich-dam-long-ba-vi-tu-tuc-chi-phi-cuc-re.html
+54	Cat Ba Island	Tourist Attraction	20.799913	106.993916	https://vi.wikipedia.org/wiki/Qu%E1%BA%A7n_%C4%91%E1%BA%A3o_C%C3%A1t_B%C3%A0	https://www.vntrip.vn/cam-nang/kinh-nghiem-du-lich-cat-ba-11246
+55	Giong Temple	Tourist Attraction	21.292477000000002	105.831631	https://vi.wikipedia.org/wiki/%C4%90%E1%BB%81n_S%C3%B3c	https://www.vntrip.vn/cam-nang/den-giong-soc-son-41427
+56	Bao Son Paradise	Tourist Attraction	20.999041999999999	105.733497	http://baosonparadise.vn/	https://www.vntrip.vn/cam-nang/thien-duong-bao-son-10615
+57	Pho Bat Dan	Food	21.033632000000001	105.846272	https://www.foody.vn/ha-noi/pho-gia-truyen	https://www.noipho.com/pho-bat-dan-nhung-dieu-chua-biet
+58	Pho Thin	Food	21.018377999999998	105.855296	https://dulich.vnexpress.net/tin-tuc/viet-nam/ha-noi/pho-thin-lo-duc-quan-chi-mot-mon-van-hut-khach-suot-30-nam-3426761.html	https://www.foody.vn/ha-noi/pho-thin-lo-duc
+59	Pho Ly Quoc Su	Food	21.030532000000001	105.848789	http://pho10lyquocsu.com/	https://www.foody.vn/ha-noi/pho-10-ly-quoc-su
+61	Pho Cuon Hung Ben	Food	21.046095999999999	105.84075799999999		https://www.foody.vn/ha-noi/pho-cuon-hung-ben-ngu-xa
+62	Pho Ga Yen Ninh	Food	21.042460999999999	105.843937	http://vivuhanoi.com/pho-ga-yen-ninh-mon-ngon-dat-do-dat-ha-thanh.html	https://www.foody.vn/ha-noi/pho-ga-cham-yen-ninh
+63	Banh mi Dinh Ngang	Food	21.028392	105.842494	http://kenh14.vn/doi-song/banh-mi-dinh-ngang-vua-re-vua-ngon-20110315092457407.chn	https://www.foody.vn/ha-noi/banh-mi-sot-vang-dinh-ngang
+64	Banh mi Lan Ong	Food	21.035843	105.848989	http://kenh14.vn/kham-pha-cua-hang-banh-mi-pate-lan-ong-ngon-nuc-tieng-ha-noi-20161206090616377.chn	https://www.foody.vn/ha-noi/banh-mi-lan-ong-cha-ca
+65	Bami Bread	Food	21.034178000000001	105.851437		http://bamibread.com/
+66	Banh mi Minh Nhat	Food	21.025568	105.85255600000001		http://banhmimasterchef.vn/
+67	Banh mi Nguyen Sinh	Food	21.030508000000001	105.84891500000001	http://kenh14.vn/hang-banh-mi-xua-va-dat-bac-nhat-ha-noi-co-mon-pate-gan-ngong-tru-danh-den-gio-van-noi-va-duoc-nhieu-nguoi-yeu-thich-20180913122336334.chn	https://www.foody.vn/ha-noi/banh-mi-nguyen-sinh
+60	Pho Bung Hang Trong	Food	21.031210999999999	105.849174	http://kenh14.vn/doi-song/ha-noi-xep-hang-dong-kin-de-an-pho-bung-via-he-pho-hang-trong-20140610032550552.chn	https://www.foody.vn/ha-noi/pho-bung-hang-trong
+68	Banh cuon Ba Hanh	Food	21.029146000000001	105.848724	http://banhcuonbahanh.com/vi/	https://www.foody.vn/ha-noi/banh-cuon-ba-hanh
+69	Banh cuon Ba Hoanh	Food	21.013587999999999	105.84966	https://eva.vn/bep-eva/thuong-thuc-banh-cuon-co-tuoi-doi-gan-100-nam-o-giua-long-ha-noi-c162a338247.html	https://www.foody.vn/ha-noi/banh-cuon-ba-hoanh
+70	Bun Cha Hang Quat	Food	21.032506000000001	105.848831		https://www.foody.vn/ha-noi/bun-cha-hang-quat
+71	Bun Cha Hang Than	Food	21.041243000000001	105.847201	https://news.zing.vn/quan-bun-cha-via-he-hang-than-dong-kin-khach-post586818.html	https://www.foody.vn/ha-noi/tuyet-bun-cha-34
+72	Bun Cha Obama	Food	21.018162	105.853936	https://www.24h.com.vn/tin-tuc-trong-ngay/quan-bun-cha-obama-lien-tuc-chay-hang-c46a821014.html	https://www.foody.vn/ha-noi/huong-lien-bun-cha-nem-cua-be
 \.
 
 
@@ -315,7 +338,7 @@ COPY public.locations (gid, name, type, lat, lng, summary, website) FROM stdin;
 -- Name: locations_gid_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.locations_gid_seq', 49, true);
+SELECT pg_catalog.setval('public.locations_gid_seq', 72, true);
 
 
 --
@@ -395,7 +418,7 @@ ALTER TABLE ONLY public.districts
 CREATE INDEX vnm_adm2_geom_idx ON public.districts USING gist (geom);
 
 
--- Completed on 2018-10-31 15:30:23
+-- Completed on 2018-10-31 22:27:34
 
 --
 -- PostgreSQL database dump complete

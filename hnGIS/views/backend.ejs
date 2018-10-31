@@ -1,6 +1,12 @@
-<ul>
-	<% results.forEach(districts => { %>
-		<li><%= districts.name_2 %></li>
-	<% }) %>
-</ul>
-<a href="/locations"><button>Địa điểm</button></a>
+<%- include('header'); -%>
+
+<div class="container">
+	<ul style="list-style: none">
+		<% results.forEach(districts => { %>
+			<li><%= districts.name_2 %></li>
+		<% }) %>
+	</ul>
+	<a href="/locations"><button class="btn btn-primary">Địa điểm</button></a>
+</div>
+
+<%- include('footer'); -%>

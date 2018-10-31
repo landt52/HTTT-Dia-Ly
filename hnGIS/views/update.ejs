@@ -1,7 +1,9 @@
 <form action="/locations/update" method="post">
 	<input type="text" name="name" placeholder="Name" value="<%= result.name %>">
 	<select name="type">
-		<option value="<%= result.type %>"><%= result.type %></option>
+		<% type.forEach(type=>{ %>
+			<option value="<%= type.type %>"><%= type.type %></option>
+		<% }) %>
 	</select>
 	<input type="text" name="lat" placeholder="Latitude" value="<%= result.lat %>">
 	<input type="text" name="lng" placeholder="Longitude" value="<%= result.lng %>">
