@@ -5,7 +5,7 @@
 -- Dumped from database version 9.6.10
 -- Dumped by pg_dump version 9.6.10
 
--- Started on 2018-10-31 11:33:00
+-- Started on 2018-10-31 15:30:22
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -264,9 +264,14 @@ COPY public.districts (gid, id_0, iso, name_0, id_1, name_1, id_2, name_2, type_
 --
 
 COPY public.locations (gid, name, type, lat, lng, summary, website) FROM stdin;
+32	One Pillar Pagoda	Tourist Attraction	21.035357000000001	105.833558	https://vi.wikipedia.org/wiki/Ch%C3%B9a_M%E1%BB%99t_C%E1%BB%99t	https://www.vntrip.vn/cam-nang/chua-mot-cot-20831
+33	Quan Thanh Temple	Tourist Attraction	21.042978000000002	105.836596	https://vi.wikipedia.org/wiki/%C4%90%E1%BB%81n_Qu%C3%A1n_Th%C3%A1nh	https://mytour.vn/location/8319-den-quan-thanh-tran-bac-thang-long-xua.html
+34	Ham Long Church	Tourist Attraction	21.018919	105.85352	https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_H%C3%A0m_Long	http://www.giaoxugiaohovietnam.com/HaNoi/01-Giao-Phan-HaNoi-HamLong.htm
 1	Noi Bai International Airport	Airport	21.218714899999998	105.8041709	https://en.wikipedia.org/wiki/Noi_Bai_International_Airport	http://noibaiairport.vn/Home/default.aspx
 3	Viet Duc Hospital	Hospital	21.027531	105.84734	https://en.wikipedia.org/wiki/Vietnam_%E2%80%93_Germany_Hospital	http://benhvienvietduc.org/
 2	Bach Mai Hospital	Hospital	21.002908999999999	105.83973400000001	https://en.wikipedia.org/wiki/B%E1%BA%A1ch_Mai_Hospital	http://bachmai.gov.vn/
+35	Tran Quoc Pagoda	Tourist Attraction	21.047801	105.836842	https://vi.wikipedia.org/wiki/Ch%C3%B9a_Tr%E1%BA%A5n_Qu%E1%BB%91c	https://www.vntrip.vn/cam-nang/chua-tran-quoc-48887
+36	Vietnam Ethnographic Museum	Tourist Attraction	21.040174	105.79879800000001	https://vi.wikipedia.org/wiki/B%E1%BA%A3o_t%C3%A0ng_D%C3%A2n_t%E1%BB%99c_h%E1%BB%8Dc_Vi%E1%BB%87t_Nam	https://www.vntrip.vn/cam-nang/bao-tang-dan-toc-hoc-viet-nam-28256
 8	103 Military Hospital	Hospital	20.966964000000001	105.790122	https://vi.wikipedia.org/wiki/B%E1%BB%87nh_vi%E1%BB%87n_103_Qu%C3%A2n_%C4%91%E1%BB%99i_nh%C3%A2n_d%C3%A2n_Vi%E1%BB%87t_Nam	http://www.benhvien103.vn/
 9	108 Center Military Hospital	Hospital	21.018087000000001	105.860998	https://vi.wikipedia.org/wiki/B%E1%BB%87nh_vi%E1%BB%87n_Trung_%C6%B0%C6%A1ng_Qu%C3%A2n_%C4%91%E1%BB%99i_108	http://benhvien108.vn/
 10	Medical University Hospital	Hospital	21.002119	105.83017	https://vi.wikipedia.org/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_Y_H%C3%A0_N%E1%BB%99i	http://benhviendaihocyhanoi.com/
@@ -278,6 +283,29 @@ COPY public.locations (gid, name, type, lat, lng, summary, website) FROM stdin;
 16	The Big Church	Tourist Attraction	21.028614999999999	105.84889099999999	https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_L%E1%BB%9Bn_H%C3%A0_N%E1%BB%99i	https://tonggiaophanhanoi.org/
 17	Ho Chi Minh Mausoleum	Tourist Attraction	21.037972	105.83381199999999	https://vi.wikipedia.org/wiki/L%C4%83ng_Ch%E1%BB%A7_t%E1%BB%8Bch_H%E1%BB%93_Ch%C3%AD_Minh	http://www.bqllang.gov.vn/
 18	Hanoi Gas Station	Tourist Attraction	21.024453000000001	105.840812	https://vi.wikipedia.org/wiki/Ga_H%C3%A0_N%E1%BB%99i	http://www.gahanoi.com.vn/
+19	Ly Thai To Monument	Tourist Attraction	21.027453000000001	105.85415399999999	https://vi.wikipedia.org/wiki/V%C6%B0%E1%BB%9Dn_hoa_Ch%C3%AD_Linh_(H%C3%A0_N%E1%BB%99i)	https://vualythaito.com/
+20	Long Bien Bridge	Tourist Attraction	21.044394	105.86145500000001	https://vi.wikipedia.org/wiki/C%E1%BA%A7u_Long_Bi%C3%AAn	http://www.vietfuntravel.com.vn/blog/gioi-thieu-lich-su-cau-long-bien-o-ha-noi.html
+21	Vietnam National Museum of History	Tourist Attraction	21.024318999999998	105.859656	https://vi.wikipedia.org/wiki/B%E1%BA%A3o_t%C3%A0ng_L%E1%BB%8Bch_s%E1%BB%AD_Vi%E1%BB%87t_Nam	http://www.baotanglichsu.vn/
+22	Dong Xuan Market	Tourist Attraction	21.038066000000001	105.849712	https://vi.wikipedia.org/wiki/Ch%E1%BB%A3_%C4%90%E1%BB%93ng_Xu%C3%A2n	http://www.chodongxuan.org/
+24	Hanoi Old Quarter	Tourist Attraction	21.033985999999999	105.85072599999999	https://vi.wikipedia.org/wiki/Khu_ph%E1%BB%91_c%E1%BB%95_H%C3%A0_N%E1%BB%99i	https://dulichfun.com/huong-dan-du-lich-pho-co-ha-noi-lich-trinh-chi-tiet-nhat.html
+23	Hanoi Flag Tower	Tourist Attraction	21.034061999999999	105.84015100000001	https://vi.wikipedia.org/wiki/C%E1%BB%99t_c%E1%BB%9D_H%C3%A0_N%E1%BB%99i	http://www.hoangthanhthanglong.vn/blog/cot-co-ha-noi/1392
+28	Temple of Literature\t	Tourist Attraction	21.029205999999999	105.836117	https://vi.wikipedia.org/wiki/V%C4%83n_Mi%E1%BA%BFu_-_Qu%E1%BB%91c_T%E1%BB%AD_Gi%C3%A1m\t	https://www.vntrip.vn/cam-nang/van-mieu-quoc-tu-giam-21829\t
+29	West Lake\t	Tourist Attraction	21.053238	105.82609600000001	https://vi.wikipedia.org/wiki/H%E1%BB%93_T%C3%A2y	https://www.vntrip.vn/cam-nang/ho-tay-36326
+30	Hoa Lo Prison	Tourist Attraction	21.025559999999999	105.846121	https://vi.wikipedia.org/wiki/H%E1%BB%8Fa_L%C3%B2	https://www.vntrip.vn/cam-nang/nha-tu-hoa-lo-20432
+31	Thang Long Royal Citadel	Tourist Attraction	21.037490999999999	105.840425	https://vi.wikipedia.org/wiki/Ho%C3%A0ng_th%C3%A0nh_Th%C4%83ng_Long	http://www.hoangthanhthanglong.vn/
+41	Ecopark	Tourist Attraction	20.962674	105.932349	http://www.ecopark.com.vn/	https://www.vntrip.vn/cam-nang/khu-do-thi-ecopark-19130
+37	Tram Mountain	Tourist Attraction	20.940574999999999	105.693562	https://vi.wikipedia.org/wiki/Ch%C3%B9a_Tr%E1%BA%A7m	https://www.vntrip.vn/cam-nang/du-lich-cam-trai-nui-tram-11621
+38	Ba Vi National Park	Tourist Attraction	21.060413	105.359858	https://vi.wikipedia.org/wiki/V%C6%B0%E1%BB%9Dn_qu%E1%BB%91c_gia_Ba_V%C3%AC	https://www.vntrip.vn/cam-nang/vuon-quoc-gia-ba-vi-dia-diem-du-lich-ba-vi-ly-tuong-10552
+39	Duong Lam Old Town	Tourist Attraction	21.159088000000001	105.46730100000001	https://vi.wikipedia.org/wiki/%C4%90%C6%B0%E1%BB%9Dng_L%C3%A2m_(l%C3%A0ng_c%E1%BB%95)	https://www.vntrip.vn/cam-nang/du-lich-lang-co-duong-lam-42547
+40	Ha Long City	Tourist Attraction	20.949707	107.07767200000001	https://vi.wikipedia.org/wiki/H%E1%BA%A1_Long_(th%C3%A0nh_ph%E1%BB%91)	https://www.ivivu.com/blog/2013/09/du-lich-ha-long-cam-nang-tu-a-den-z/
+42	Dai Lai Lake	Tourist Attraction	21.319890999999998	105.71195400000001	https://vi.wikipedia.org/wiki/H%E1%BB%93_%C4%90%E1%BA%A1i_L%E1%BA%A3i	https://www.vntrip.vn/cam-nang/kinh-nghiem-du-lich-ho-dai-lai-10572
+43	Bat Trang Ceramic Village	Tourist Attraction	20.975241	105.912767	https://vi.wikipedia.org/wiki/G%E1%BB%91m_B%C3%A1t_Tr%C3%A0ng	https://www.vntrip.vn/cam-nang/du-lich-lang-gom-bat-trang-10495
+44	Tam Coc Bich Dong	Tourist Attraction	20.234113000000001	105.894769	https://vi.wikipedia.org/wiki/Tam_C%E1%BB%91c_-_B%C3%ADch_%C4%90%E1%BB%99ng	https://viettravelo.com/kinh-nghiem-du-lich-tam-coc-bich-dong-ninh-binh-mua-lua-chin.html
+45	Tam Dao	Tourist Attraction	21.454412000000001	105.645782	https://vi.wikipedia.org/wiki/Tam_%C4%90%E1%BA%A3o	https://www.vntrip.vn/cam-nang/kinh-nghiem-du-lich-tam-dao-48011
+46	Co Loa Citadel	Tourist Attraction	21.116021	105.870949	https://vi.wikipedia.org/wiki/C%E1%BB%95_Loa	https://www.vntrip.vn/cam-nang/thanh-co-loa-26077
+47	Viet Phu Thanh Chuong	Tourist Attraction	21.277304000000001	105.803811	https://www.vntrip.vn/cam-nang/du-lich-viet-phu-thanh-chuong-13238	https://www.vntrip.vn/cam-nang/du-lich-viet-phu-thanh-chuong-13238
+48	Chu Dong Tu Temple	Tourist Attraction	20.880773000000001	105.929011	https://vi.wikipedia.org/wiki/Ch%E1%BB%AD_%C4%90%E1%BB%93ng_T%E1%BB%AD	https://mytour.vn/location/2011-den-chu-dong-tu.html
+49	Huong Pagoda	Tourist Attraction	20.619323999999999	105.744838	https://vi.wikipedia.org/wiki/Ch%C3%B9a_H%C6%B0%C6%A1ng	https://www.vntrip.vn/cam-nang/chua-huong-39945
 \.
 
 
@@ -287,7 +315,7 @@ COPY public.locations (gid, name, type, lat, lng, summary, website) FROM stdin;
 -- Name: locations_gid_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.locations_gid_seq', 18, true);
+SELECT pg_catalog.setval('public.locations_gid_seq', 49, true);
 
 
 --
@@ -367,7 +395,7 @@ ALTER TABLE ONLY public.districts
 CREATE INDEX vnm_adm2_geom_idx ON public.districts USING gist (geom);
 
 
--- Completed on 2018-10-31 11:33:02
+-- Completed on 2018-10-31 15:30:23
 
 --
 -- PostgreSQL database dump complete
