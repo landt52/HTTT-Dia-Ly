@@ -15,6 +15,10 @@
 			<td><%= locations.lng %></td>
 			<td><%= locations.summary %></td>
 			<td><%= locations.website %></td>
+			<td>
+				<a href="/locations/update/<%= locations.gid %>">Sua</a>
+				<a href="/locations/delete/<%= locations.gid %>">Xoa</a>
+			</td>
 	    </tr>
 	<% }) %>
 </table>

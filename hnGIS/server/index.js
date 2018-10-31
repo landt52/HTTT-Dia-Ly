@@ -45,7 +45,7 @@ route.use(async (ctx, next) => {
 
 route.use(api.routes(), api.allowedMethods());
 
-let bodyUrlencoded = bodyParser.urlencoded({extended: true});
+app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
 app.use(express.static(__dirname + "public"));
 
@@ -101,7 +101,7 @@ app.get("/locations/add", async function(req, res){
 	res.render("add", {results: results});
 });
 
-app.post("/locations/add", bodyUrlencoded, async function(req, res){
+app.post("/locations/add", async function(req, res){
 	pool.connect(function(err, client, done){
 		const name = req.body.name;
 		const type = req.body.type;
@@ -110,6 +110,38 @@ app.post("/locations/add", bodyUrlencoded, async function(req, res){
 		const summary = req.body.summary;
 		const website = req.body.website;
 		client.query(`INSERT INTO locations(name, type, lat, lng, summary, website) VALUES('${name}', '${type}', ${lat}, ${lng}, '${summary}', '${website}')`);
+		done();
+
+		res.redirect("/locations");
+	});
+});
+
+app.get("/locations/update/:id", async function(req, res){
+	const id = req.params.id;
+	const result = await database.getLocationToUpdate(id);
+	res.render("update", {result: result.rows[0]});
+});
+
+app.post("/locations/update", async function(req, res){
+	pool.connect(function(err, client, done){
+		const gid = req.body.gid;
+		const name = req.body.name;
+		const type = req.body.type;
+		const lat = req.body.lat;
+		const lng = req.body.lng;
+		const summary = req.body.summary;
+		const website = req.body.website;
+		client.query(`UPDATE locations SET name='${name}', type='${type}', lat='${lat}', lng='${lng}', summary='${summary}', website='${website}' WHERE gid='${gid}'`);
+		done();
+
+		res.redirect("/locations");
+	});
+});
+
+app.get("/locations/delete/:id", async function(req, res){
+	pool.connect(function(err, client, done){
+		const gid = req.params.id;
+		client.query(`DELETE FROM locations WHERE gid='${gid}'`);
 		done();
 
 		res.redirect("/locations");

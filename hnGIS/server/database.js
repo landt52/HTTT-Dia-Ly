@@ -75,7 +75,8 @@ module.exports = {
 	getAllLocationsInfo: async () => {
 		const allLocationsInfoQuery = `
 			SELECT *
-			FROM locations`;
+			FROM locations
+			ORDER BY gid ASC`;
 		const result = await client.query(allLocationsInfoQuery);
 		return result.rows;
 	},
@@ -86,6 +87,15 @@ module.exports = {
 			FROM locations`;
 		const result = await client.query(locationsType);
 		return result.rows;	
+	},
+
+	getLocationToUpdate: async (id) => {
+		const locationToUpdate = `
+			SELECT *
+			FROM locations
+			WHERE gid = $1`;
+		const result = await client.query(locationToUpdate, [id]);
+		return result;
 	}
 }
 

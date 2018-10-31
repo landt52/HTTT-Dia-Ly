@@ -5,7 +5,7 @@
 -- Dumped from database version 9.6.10
 -- Dumped by pg_dump version 9.6.10
 
--- Started on 2018-10-30 16:31:47
+-- Started on 2018-10-31 11:33:00
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -16,6 +16,84 @@ SELECT pg_catalog.set_config('search_path', '', false);
 SET check_function_bodies = false;
 SET client_min_messages = warning;
 SET row_security = off;
+
+--
+-- TOC entry 10 (class 2615 OID 17869)
+-- Name: topology; Type: SCHEMA; Schema: -; Owner: postgres
+--
+
+CREATE SCHEMA topology;
+
+
+ALTER SCHEMA topology OWNER TO postgres;
+
+--
+-- TOC entry 1 (class 3079 OID 12387)
+-- Name: plpgsql; Type: EXTENSION; Schema: -; Owner: 
+--
+
+CREATE EXTENSION IF NOT EXISTS plpgsql WITH SCHEMA pg_catalog;
+
+
+--
+-- TOC entry 3755 (class 0 OID 0)
+-- Dependencies: 1
+-- Name: EXTENSION plpgsql; Type: COMMENT; Schema: -; Owner: 
+--
+
+COMMENT ON EXTENSION plpgsql IS 'PL/pgSQL procedural language';
+
+
+--
+-- TOC entry 3 (class 3079 OID 18011)
+-- Name: hstore; Type: EXTENSION; Schema: -; Owner: 
+--
+
+CREATE EXTENSION IF NOT EXISTS hstore WITH SCHEMA public;
+
+
+--
+-- TOC entry 3756 (class 0 OID 0)
+-- Dependencies: 3
+-- Name: EXTENSION hstore; Type: COMMENT; Schema: -; Owner: 
+--
+
+COMMENT ON EXTENSION hstore IS 'data type for storing sets of (key, value) pairs';
+
+
+--
+-- TOC entry 4 (class 3079 OID 16394)
+-- Name: postgis; Type: EXTENSION; Schema: -; Owner: 
+--
+
+CREATE EXTENSION IF NOT EXISTS postgis WITH SCHEMA public;
+
+
+--
+-- TOC entry 3757 (class 0 OID 0)
+-- Dependencies: 4
+-- Name: EXTENSION postgis; Type: COMMENT; Schema: -; Owner: 
+--
+
+COMMENT ON EXTENSION postgis IS 'PostGIS geometry, geography, and raster spatial types and functions';
+
+
+--
+-- TOC entry 2 (class 3079 OID 17870)
+-- Name: postgis_topology; Type: EXTENSION; Schema: -; Owner: 
+--
+
+CREATE EXTENSION IF NOT EXISTS postgis_topology WITH SCHEMA topology;
+
+
+--
+-- TOC entry 3758 (class 0 OID 0)
+-- Dependencies: 2
+-- Name: EXTENSION postgis_topology; Type: COMMENT; Schema: -; Owner: 
+--
+
+COMMENT ON EXTENSION postgis_topology IS 'PostGIS topology spatial types and functions';
+
 
 SET default_tablespace = '';
 
@@ -56,7 +134,8 @@ CREATE TABLE public.locations (
     type character varying(100),
     lat double precision,
     lng double precision,
-    summary text
+    summary text,
+    website character varying(100)
 );
 
 
@@ -78,7 +157,7 @@ CREATE SEQUENCE public.locations_gid_seq
 ALTER TABLE public.locations_gid_seq OWNER TO postgres;
 
 --
--- TOC entry 3743 (class 0 OID 0)
+-- TOC entry 3759 (class 0 OID 0)
 -- Dependencies: 212
 -- Name: locations_gid_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
 --
@@ -115,7 +194,7 @@ CREATE SEQUENCE public.vnm_adm2_gid_seq
 ALTER TABLE public.vnm_adm2_gid_seq OWNER TO postgres;
 
 --
--- TOC entry 3744 (class 0 OID 0)
+-- TOC entry 3760 (class 0 OID 0)
 -- Dependencies: 210
 -- Name: vnm_adm2_gid_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
 --
@@ -124,7 +203,7 @@ ALTER SEQUENCE public.vnm_adm2_gid_seq OWNED BY public.districts.gid;
 
 
 --
--- TOC entry 3601 (class 2604 OID 21704)
+-- TOC entry 3612 (class 2604 OID 21704)
 -- Name: districts gid; Type: DEFAULT; Schema: public; Owner: postgres
 --
 
@@ -132,7 +211,7 @@ ALTER TABLE ONLY public.districts ALTER COLUMN gid SET DEFAULT nextval('public.v
 
 
 --
--- TOC entry 3602 (class 2604 OID 22669)
+-- TOC entry 3613 (class 2604 OID 22669)
 -- Name: locations gid; Type: DEFAULT; Schema: public; Owner: postgres
 --
 
@@ -140,7 +219,7 @@ ALTER TABLE ONLY public.locations ALTER COLUMN gid SET DEFAULT nextval('public.l
 
 
 --
--- TOC entry 3733 (class 0 OID 21701)
+-- TOC entry 3744 (class 0 OID 21701)
 -- Dependencies: 211
 -- Data for Name: districts; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -179,39 +258,50 @@ COPY public.districts (gid, id_0, iso, name_0, id_1, name_1, id_2, name_2, type_
 
 
 --
--- TOC entry 3735 (class 0 OID 22666)
+-- TOC entry 3746 (class 0 OID 22666)
 -- Dependencies: 213
 -- Data for Name: locations; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY public.locations (gid, name, type, lat, lng, summary) FROM stdin;
-1	Noi Bai International Airport	Airport	21.218714899999998	105.8041709	https://en.wikipedia.org/wiki/Noi_Bai_International_Airport
-3	Viet Duc Hospital	Hospital	21.027531	105.84734	https://en.wikipedia.org/wiki/Vietnam_%E2%80%93_Germany_Hospital
-2	Bach Mai Hospital	Hospital	21.002908999999999	105.83973400000001	https://en.wikipedia.org/wiki/B%E1%BA%A1ch_Mai_Hospital
+COPY public.locations (gid, name, type, lat, lng, summary, website) FROM stdin;
+1	Noi Bai International Airport	Airport	21.218714899999998	105.8041709	https://en.wikipedia.org/wiki/Noi_Bai_International_Airport	http://noibaiairport.vn/Home/default.aspx
+3	Viet Duc Hospital	Hospital	21.027531	105.84734	https://en.wikipedia.org/wiki/Vietnam_%E2%80%93_Germany_Hospital	http://benhvienvietduc.org/
+2	Bach Mai Hospital	Hospital	21.002908999999999	105.83973400000001	https://en.wikipedia.org/wiki/B%E1%BA%A1ch_Mai_Hospital	http://bachmai.gov.vn/
+8	103 Military Hospital	Hospital	20.966964000000001	105.790122	https://vi.wikipedia.org/wiki/B%E1%BB%87nh_vi%E1%BB%87n_103_Qu%C3%A2n_%C4%91%E1%BB%99i_nh%C3%A2n_d%C3%A2n_Vi%E1%BB%87t_Nam	http://www.benhvien103.vn/
+9	108 Center Military Hospital	Hospital	21.018087000000001	105.860998	https://vi.wikipedia.org/wiki/B%E1%BB%87nh_vi%E1%BB%87n_Trung_%C6%B0%C6%A1ng_Qu%C3%A2n_%C4%91%E1%BB%99i_108	http://benhvien108.vn/
+10	Medical University Hospital	Hospital	21.002119	105.83017	https://vi.wikipedia.org/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_Y_H%C3%A0_N%E1%BB%99i	http://benhviendaihocyhanoi.com/
+11	National University Hospital	Hospital	20.990915999999999	105.796532	https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A1i_h%E1%BB%8Dc_Qu%E1%BB%91c_gia_H%C3%A0_N%E1%BB%99i	http://benhviendhqghn.com/
+12	Vinmec International General Hospital	Hospital	20.996355000000001	105.86691	https://wikimed.vn/co-so-y-te/benh-vien-da-khoa-quoc-te-vinmec-33	https://vinmec.com/
+13	Huu Nghi Hospital	Hospital	21.016656999999999	105.861118	https://vi.wikipedia.org/wiki/B%E1%BB%87nh_vi%E1%BB%87n_H%E1%BB%AFu_ngh%E1%BB%8B	http://huunghihospital.vn/index.php?lang=vi
+14	Hoan Kiem Lake	Tourist Attraction	21.028959	105.85261	https://vi.wikipedia.org/wiki/H%E1%BB%93_Ho%C3%A0n_Ki%E1%BA%BFm	http://www.vietfuntravel.com.vn/blog/gioi-thieu-doi-net-ve-ho-hoan-kiem-ho-guom-o-ha-noi.html
+15	Hanoi Opera House	Tourist Attraction	21.024160999999999	105.857859	https://vi.wikipedia.org/wiki/Nh%C3%A0_h%C3%A1t_L%E1%BB%9Bn_H%C3%A0_N%E1%BB%99i	http://www.hanoioperahouse.org.vn/
+16	The Big Church	Tourist Attraction	21.028614999999999	105.84889099999999	https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_L%E1%BB%9Bn_H%C3%A0_N%E1%BB%99i	https://tonggiaophanhanoi.org/
+17	Ho Chi Minh Mausoleum	Tourist Attraction	21.037972	105.83381199999999	https://vi.wikipedia.org/wiki/L%C4%83ng_Ch%E1%BB%A7_t%E1%BB%8Bch_H%E1%BB%93_Ch%C3%AD_Minh	http://www.bqllang.gov.vn/
+18	Hanoi Gas Station	Tourist Attraction	21.024453000000001	105.840812	https://vi.wikipedia.org/wiki/Ga_H%C3%A0_N%E1%BB%99i	http://www.gahanoi.com.vn/
 \.
 
 
 --
--- TOC entry 3745 (class 0 OID 0)
+-- TOC entry 3761 (class 0 OID 0)
 -- Dependencies: 212
 -- Name: locations_gid_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.locations_gid_seq', 3, true);
+SELECT pg_catalog.setval('public.locations_gid_seq', 18, true);
 
 
 --
--- TOC entry 3600 (class 0 OID 16691)
+-- TOC entry 3607 (class 0 OID 16691)
 -- Dependencies: 190
 -- Data for Name: spatial_ref_sys; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY public.spatial_ref_sys  FROM stdin;
+COPY public.spatial_ref_sys (srid, auth_name, auth_srid, srtext, proj4text) FROM stdin;
 \.
 
 
 --
--- TOC entry 3736 (class 0 OID 22686)
+-- TOC entry 3747 (class 0 OID 22686)
 -- Dependencies: 214
 -- Data for Name: users; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -223,7 +313,7 @@ admin2	password2
 
 
 --
--- TOC entry 3746 (class 0 OID 0)
+-- TOC entry 3762 (class 0 OID 0)
 -- Dependencies: 210
 -- Name: vnm_adm2_gid_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
@@ -232,7 +322,27 @@ SELECT pg_catalog.setval('public.vnm_adm2_gid_seq', 678, true);
 
 
 --
--- TOC entry 3607 (class 2606 OID 22674)
+-- TOC entry 3605 (class 0 OID 17873)
+-- Dependencies: 205
+-- Data for Name: topology; Type: TABLE DATA; Schema: topology; Owner: postgres
+--
+
+COPY topology.topology (id, name, srid, "precision", hasz) FROM stdin;
+\.
+
+
+--
+-- TOC entry 3606 (class 0 OID 17886)
+-- Dependencies: 206
+-- Data for Name: layer; Type: TABLE DATA; Schema: topology; Owner: postgres
+--
+
+COPY topology.layer (topology_id, layer_id, schema_name, table_name, feature_column, feature_type, level, child_id) FROM stdin;
+\.
+
+
+--
+-- TOC entry 3618 (class 2606 OID 22674)
 -- Name: locations locations_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
@@ -241,7 +351,7 @@ ALTER TABLE ONLY public.locations
 
 
 --
--- TOC entry 3605 (class 2606 OID 21709)
+-- TOC entry 3616 (class 2606 OID 21709)
 -- Name: districts vnm_adm2_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
@@ -250,14 +360,14 @@ ALTER TABLE ONLY public.districts
 
 
 --
--- TOC entry 3603 (class 1259 OID 22071)
+-- TOC entry 3614 (class 1259 OID 22071)
 -- Name: vnm_adm2_geom_idx; Type: INDEX; Schema: public; Owner: postgres
 --
 
 CREATE INDEX vnm_adm2_geom_idx ON public.districts USING gist (geom);
 
 
--- Completed on 2018-10-30 16:31:48
+-- Completed on 2018-10-31 11:33:02
 
 --
 -- PostgreSQL database dump complete
