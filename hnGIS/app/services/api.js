@@ -26,9 +26,14 @@ export class ApiService{
 		return this.httpGet(`hanoi/${id}/size`)
 	}
 
+	getDistrictInfo(id){
+		return this.httpGet(`districts/${id}/summary`)
+	}
+
 	async getAllDistrictDetails(id){
 		return{
-			districtSize: await this.getDistrictSize(id)
+			districtSize: await this.getDistrictSize(id),
+			summary: await this.getDistrictInfo(id)
 		}
 	}
 }

@@ -1,11 +1,18 @@
 <%- include('header'); -%>
 
 <div class="container">
-	<ul style="list-style: none">
+	<table class="table">
+		<tr>
+			<th>District Name</th>
+		    <th>District Summary</th>
+		</tr>
 		<% results.forEach(districts => { %>
-			<li><%= districts.name_2 %></li>
+			<tr>
+				<td><%= districts.varname_2 %></td>
+				<td><%= districts.summary %></td>
+			</tr>
 		<% }) %>
-	</ul>
+	</table>
 	<a href="/locations"><button class="btn btn-primary">Địa điểm</button></a>
 </div>
 

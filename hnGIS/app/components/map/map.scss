@@ -25,11 +25,17 @@
 	
 	.leaflet-control-zoom {
 	    border: none;
+	    padding-left: .18rem;
 	}
 
     .leaflet-control-zoom-in, .leaflet-control-zoom-out {
 	    background: $color-lightDark;
 	    color: $color-white;
 	    border: none;
+	}
+
+	.polyline-measure-unicode-icon, #unitControlId{
+		color: $color-white;
+		background-color: $color-lightDark;
 	}
 }

@@ -39,7 +39,7 @@ a {
 
 .info-title {
   font-family: "MedievalSharp", cursive;
-  height: 5rem;
+  height: 7rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -75,16 +75,16 @@ a {
   z-index: 1000;
   background: #222;
   width: 50rem;
-  height: 60vh;
+  height: 40vh;
   color: #faebd7;
   transition: all 0.4s ease-in-out;
-  transform: translateY(calc(100% - 5rem)); }
+  transform: translateY(calc(100% - 7rem)); }
 
 .info-container.info-active {
   transform: translateY(0); }
 
 .info-body {
-  margin-top: 5rem;
+  margin-top: 7rem;
   overflow-y: scroll;
   overflow-x: hidden;
   position: relative;
@@ -107,11 +107,15 @@ a {
     color: #faebd7;
     text-align: center; }
   .map-container .leaflet-control-zoom {
-    border: none; }
+    border: none;
+    padding-left: .18rem; }
   .map-container .leaflet-control-zoom-in, .map-container .leaflet-control-zoom-out {
     background: #333;
     color: #faebd7;
     border: none; }
+  .map-container .polyline-measure-unicode-icon, .map-container #unitControlId {
+    color: #faebd7;
+    background-color: #333; }
 
 .search-container {
   position: absolute;
@@ -123,7 +127,7 @@ a {
   box-sizing: border-box;
   font-family: "Lato", sans-serif; }
   .search-container input[type=text] {
-    width: 6rem;
+    width: 5rem;
     transition: width 0.4s ease-in-out;
     cursor: pointer; }
   .search-container input[type=text]:focus {
@@ -143,7 +147,7 @@ a {
     background: #333; }
 
 .search-bar, .search-input {
-  height: 6rem; }
+  height: 5rem; }
 
 .search-input {
   background-color: #222;
@@ -151,9 +155,9 @@ a {
   border: 0.3rem #333 solid;
   border-radius: .4rem;
   font-size: 1.6rem;
-  padding: .4rem;
+  padding: .3rem;
   background-image: url("https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_search_white_18px.svg");
-  background-position: 2rem 1.7rem;
+  background-position: 1.5rem 1rem;
   background-size: 2.4rem 2.4rem;
   background-repeat: no-repeat;
-  padding-left: 6rem; }
+  padding-left: 5rem; }

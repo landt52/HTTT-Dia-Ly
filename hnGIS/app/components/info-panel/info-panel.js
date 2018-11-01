@@ -25,17 +25,22 @@ export class InfoPanel extends Component{
     }
 
     async getDistrictDetails(id){
-        let districtSize = await this.api.getAllDistrictDetails(id)
-        districtSize=districtSize.districtSize.toFixed(2)
+        let district = await this.api.getAllDistrictDetails(id)
+        let districtSize = district.districtSize.toFixed(2)
+        let districtSummary = district.summary.summary
+        console.log(district)
         return `<h3>District</h3>
                 <div>Size Estimate: ${districtSize} km<sup>2</sup></div>
-                `
+                <h3>Summary</h3>
+                <div><a href="${districtSummary}" target="_blank" rel="noopener">Read More</a></div>`
     }
 
     async getLocationDetail(id, type){
         const locationInfo = await this.api.getLocationSummary(id)
         return `<h3>${type}</h3>
                 <h3>Summary</h3>
-                <div><a href="${locationInfo.summary}" target="_blank" rel="noopener">Read More...</a></div>`
+                <div><a href="${locationInfo.summary}" target="_blank" rel="noopener">Read More...</a></div>
+                <h3>More Info - Booking - Tips</h3>
+                <div><a href="${locationInfo.website}" target="_blank" rel="noopener">Go To...</a></div>`
     }
 }

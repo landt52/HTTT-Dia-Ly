@@ -42,7 +42,7 @@
     z-index: 1000;
     background: $color-dark;
     width: $leftPanels-width;
-    height: 60vh;
+    height: 40vh;
     color: $color-white;
     transition: all 0.4s ease-in-out;
     transform: translateY(calc(100% - #{$footer-height}));

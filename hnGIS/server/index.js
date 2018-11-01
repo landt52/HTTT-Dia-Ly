@@ -89,7 +89,7 @@ app.post("/", async function(req, res){
 });
 
 app.get("/backend", async function(req, res){
-	const results = await database.getDistrictsName();
+	const results = await database.getDistrictsInfo();
 	res.render("backend", {results: results});
 });
 

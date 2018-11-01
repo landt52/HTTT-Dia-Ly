@@ -1,14 +1,39 @@
-<form action="/locations/update" method="post">
-	<input type="text" name="name" placeholder="Name" value="<%= result.name %>">
-	<select name="type">
-		<% type.forEach(type=>{ %>
-			<option value="<%= type.type %>"><%= type.type %></option>
-		<% }) %>
-	</select>
-	<input type="text" name="lat" placeholder="Latitude" value="<%= result.lat %>">
-	<input type="text" name="lng" placeholder="Longitude" value="<%= result.lng %>">
-	<input type="text" name="summary" placeholder="Summary" value="<%= result.summary %>">
-	<input type="text" name="website" placeholder="Website" value="<%= result.website %>">
-	<input type="hidden" name="gid" value="<%= result.gid %>">
-	<button>Update</button>
-</form>
+<%- include('header'); -%>
+
+<div class="container">
+	<h1>Update Location</h1>
+	<form action="/locations/update" method="post">
+		<div class="form-group">
+		    <label for="name">Location Name</label>
+		    <input type="text" name="name" class="form-control" id="name" placeholder="Name" value="<%= result.name %>">
+		</div>
+		<div class="form-group">
+			<label for="type">Location Type</label>
+			<select name="type" id="type">
+				<% type.forEach(type=>{ %>
+					<option value="<%= type.type %>"><%= type.type %></option>
+				<% }) %>
+			</select>
+		</div>
+		<div class="form-group">
+		    <label for="lat">Location Latitude</label>
+		    <input type="text" name="lat" class="form-control" id="lat" placeholder="Latitude" value="<%= result.lat %>">
+		</div>
+		<div class="form-group">
+		    <label for="lng">Location Longitude</label>
+		    <input type="text" name="lng" class="form-control" id="lng" placeholder="Longitude" value="<%= result.lng %>">
+		</div>
+		<div class="form-group">
+		    <label for="summary">Location Summary</label>
+		    <input type="text" name="summary" class="form-control" id="summary" placeholder="Summary" value="<%= result.summary %>">
+		</div>
+		<div class="form-group">
+		    <label for="website">Location Website</label>
+		    <input type="text" name="website" class="form-control" id="website" placeholder="Website" value="<%= result.website %>">
+		</div>
+		<input type="hidden" name="gid" value="<%= result.gid %>">
+		<button>Update</button>
+	</form>
+</div>
+
+<%- include('footer'); -%>

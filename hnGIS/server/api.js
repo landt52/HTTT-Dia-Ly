@@ -27,7 +27,7 @@ router.get('/hanoi', async ctx =>{
    	if (results.length === 0) { ctx.throw(404); }
       	const boundaries = results.map((row) => {
           	let geojson = JSON.parse(row.st_asgeojson);
-          	geojson.properties = { name: row.name_2, id: row.gid };
+          	geojson.properties = { name: row.varname_2, id: row.gid };
           	return geojson;
      	})
     ctx.body = boundaries;
@@ -44,6 +44,12 @@ router.get('/hanoi/:id/size', async ctx =>{
 router.get('/locations/:id/summary', async ctx =>{
     const id = ctx.params.id
     const result = await database.getSummary('locations', id)
+    ctx.body = result || ctx.throw(404)
+});
+
+router.get('/districts/:id/summary', async ctx =>{
+    const id = ctx.params.id
+    const result = await database.getDistrictSummary(id)
     ctx.body = result || ctx.throw(404)
 });
 

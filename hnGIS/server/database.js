@@ -26,7 +26,7 @@ module.exports = {
 
 	getCityBoundaries: async () => {
 	  	const boundaryQuery = `
-	    	SELECT ST_AsGeoJSON(geom), name_2, gid
+	    	SELECT ST_AsGeoJSON(geom), varname_2, gid
 	    	FROM districts;`;
 	  	const result = await client.query(boundaryQuery);
 	  	return result.rows;
@@ -48,11 +48,21 @@ module.exports = {
 		}
 
 		const summaryQuery = `
-		    SELECT summary
+		    SELECT summary, website
 		    FROM ${table}
 		    WHERE gid = $1
 		    LIMIT(1);`;
 		const result = await client.query(summaryQuery, [id]);
+		return result.rows[0];
+	},
+
+	getDistrictSummary: async (id) => {
+		const districtSummaryQuery = `
+		    SELECT summary
+		    FROM districts
+		    WHERE gid = $1
+		    LIMIT(1);`;
+		const result = await client.query(districtSummaryQuery, [id]);
 		return result.rows[0];
 	},
 
@@ -64,11 +74,11 @@ module.exports = {
 		return result.rows;
 	},
 
-	getDistrictsName: async () => {
-		const districtsNameQuery = `
-			SELECT name_2
+	getDistrictsInfo: async () => {
+		const districtsInfoQuery = `
+			SELECT varname_2, summary
 			FROM districts`;
-		const results = await client.query(districtsNameQuery);
+		const results = await client.query(districtsInfoQuery);
 		return results.rows;
 	},
 

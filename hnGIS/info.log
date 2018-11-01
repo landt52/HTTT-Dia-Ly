@@ -6463,3 +6463,2120 @@
 {"message":"Server listening at port5000","level":"info"}
 {"message":"Backend listening at port 3000","level":"info"}
 {"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 662","level":"info"}
+{"message":"GET 200 /locations/airport - 33","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 airport.svg - 5","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 3","level":"info"}
+{"message":"GET 200 hospital.svg - 5","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 12","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /locations/86/summary - 2","level":"info"}
+{"message":"GET 200 /locations/74/summary - 2","level":"info"}
+{"message":"GET 200 /hanoi/223/size - 21","level":"info"}
+{"message":"GET 200 /locations/64/summary - 1","level":"info"}
+{"message":"GET 200 /hanoi/223/size - 1","level":"info"}
+{"message":"GET 200 /hanoi/215/size - 2","level":"info"}
+{"message":"GET 200 /hanoi/215/size - 2","level":"info"}
+{"message":"GET 200 /locations/32/summary - 1","level":"info"}
+{"message":"GET 200 /locations/17/summary - 1","level":"info"}
+{"message":"GET 200 /locations/31/summary - 2","level":"info"}
+{"message":"GET 200 /locations/23/summary - 2","level":"info"}
+{"message":"GET 200 /locations/61/summary - 2","level":"info"}
+{"message":"GET 200 /hanoi - 67","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 2","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /locations/70/summary - 0","level":"info"}
+{"message":"GET 200 /locations/60/summary - 0","level":"info"}
+{"message":"GET 200 /hanoi/223/size - 2","level":"info"}
+{"message":"GET 200 /locations/60/summary - 0","level":"info"}
+{"message":"GET 200 /hanoi/223/size - 0","level":"info"}
+{"message":"GET 200 /locations/76/summary - 1","level":"info"}
+{"message":"GET 200 /locations/76/summary - 0","level":"info"}
+{"message":"GET 200 /locations/76/summary - 2","level":"info"}
+{"message":"GET 200 /locations/59/summary - 0","level":"info"}
+{"message":"GET 200 /locations/67/summary - 0","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 60","level":"info"}
+{"message":"GET 200 /locations/airport - 3","level":"info"}
+{"message":"GET 200 airport.svg - 6","level":"info"}
+{"message":"GET 200 /locations/hospital - 3","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 50","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 0","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 47","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 2","level":"info"}
+{"message":"GET 200 /hanoi - 49","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 51","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 51","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 0","level":"info"}
+{"message":"GET 200 /hanoi - 53","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 0","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 48","level":"info"}
+{"message":"GET 200 /locations/airport - 2","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 60","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 airport.svg - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 53","level":"info"}
+{"message":"GET 200 /locations/airport - 15","level":"info"}
+{"message":"GET 200 /hanoi - 48","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 airport.svg - 3","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 49","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 2","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 0","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 3","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 45","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 0","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 52","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 2","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 /hanoi - 58","level":"info"}
+{"message":"GET 200 /hanoi - 50","level":"info"}
+{"message":"GET 200 /hanoi - 45","level":"info"}
+{"message":"GET 200 /hanoi - 43","level":"info"}
+{"message":"GET 200 /hanoi - 45","level":"info"}
+{"message":"GET 200 /locations/airport - 2","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 45","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 2","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 2","level":"info"}
+{"message":"GET 200 /hanoi - 56","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 airport.svg - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 54","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 3","level":"info"}
+{"message":"GET 200 hospital.svg - 11","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 0","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 47","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 0","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 51","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 0","level":"info"}
+{"message":"GET 200 /hanoi - 46","level":"info"}
+{"message":"GET 200 /hanoi - 45","level":"info"}
+{"message":"GET 200 /hanoi - 51","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 2","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 2","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 41","level":"info"}
+{"message":"GET 200 /hanoi - 46","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 0","level":"info"}
+{"message":"GET 200 /hanoi - 45","level":"info"}
+{"message":"GET 200 /locations/airport - 2","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 0","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 4","level":"info"}
+{"message":"GET 200 /hanoi - 48","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 62","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 3","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 56","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 3","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 0","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 55","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 2","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 0","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 49","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 2","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 2","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 49","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 2","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 2","level":"info"}
+{"message":"GET 200 /hanoi/219/size - 1","level":"info"}
+{"message":"GET 200 /hanoi - 46","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 47","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 45","level":"info"}
+{"message":"GET 200 /hanoi - 51","level":"info"}
+{"message":"GET 200 /hanoi - 49","level":"info"}
+{"message":"GET 200 /hanoi - 57","level":"info"}
+{"message":"GET 200 /hanoi - 49","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 51","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 0","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 0","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 43","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 0","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 0","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 52","level":"info"}
+{"message":"GET 200 /locations/airport - 2","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 2","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 0","level":"info"}
+{"message":"GET 200 /hanoi - 42","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 airport.svg - 4","level":"info"}
+{"message":"GET 200 hospital.svg - 0","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 62","level":"info"}
+{"message":"GET 200 /locations/airport - 3","level":"info"}
+{"message":"GET 200 airport.svg - 5","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 62","level":"info"}
+{"message":"GET 200 /locations/airport - 4","level":"info"}
+{"message":"GET 200 /hanoi - 55","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 airport.svg - 7","level":"info"}
+{"message":"GET 200 hospital.svg - 2","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 68","level":"info"}
+{"message":"GET 200 /locations/airport - 3","level":"info"}
+{"message":"GET 200 airport.svg - 5","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 0","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 57","level":"info"}
+{"message":"GET 200 /locations/airport - 2","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 0","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 0","level":"info"}
+{"message":"GET 200 /hanoi - 51","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 49","level":"info"}
+{"message":"GET 200 /hanoi - 52","level":"info"}
+{"message":"GET 200 /hanoi - 46","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 2","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 3","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 60","level":"info"}
+{"message":"GET 200 /locations/airport - 2","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 0","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 77","level":"info"}
+{"message":"GET 200 /locations/airport - 3","level":"info"}
+{"message":"GET 200 airport.svg - 5","level":"info"}
+{"message":"GET 200 /locations/hospital - 3","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 0","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 2","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 73","level":"info"}
+{"message":"GET 200 /locations/airport - 3","level":"info"}
+{"message":"GET 200 /locations/hospital - 4","level":"info"}
+{"message":"GET 200 airport.svg - 9","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 2","level":"info"}
+{"message":"GET 200 /hanoi - 43","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 0","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 53","level":"info"}
+{"message":"GET 200 /hanoi - 52","level":"info"}
+{"message":"GET 200 /hanoi - 57","level":"info"}
+{"message":"GET 200 /hanoi - 51","level":"info"}
+{"message":"GET 200 /locations/airport - 2","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 50","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 0","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 55","level":"info"}
+{"message":"GET 200 /hanoi - 54","level":"info"}
+{"message":"GET 200 /hanoi - 48","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 airport.svg - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 0","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 60","level":"info"}
+{"message":"GET 200 /locations/airport - 3","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 airport.svg - 6","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 9","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 64","level":"info"}
+{"message":"GET 200 /locations/airport - 3","level":"info"}
+{"message":"GET 200 /locations/hospital - 5","level":"info"}
+{"message":"GET 200 airport.svg - 5","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 51","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 52","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 0","level":"info"}
+{"message":"GET 200 /hanoi - 63","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 0","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 58","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 46","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 airport.svg - 3","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 0","level":"info"}
+{"message":"GET 200 /hanoi - 58","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 46","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 2","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 57","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 airport.svg - 3","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 0","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /locations/56/summary - 0","level":"info"}
+{"message":"GET 200 /locations/37/summary - 1","level":"info"}
+{"message":"GET 200 /locations/83/summary - 0","level":"info"}
+{"message":"GET 200 /locations/82/summary - 0","level":"info"}
+{"message":"GET 200 /locations/36/summary - 16","level":"info"}
+{"message":"GET 200 /hanoi - 46","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 3","level":"info"}
+{"message":"GET 200 hospital.svg - 4","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 2","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /locations/52/summary - 0","level":"info"}
+{"message":"GET 200 /hanoi - 58","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 2","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 2","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 0","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 58","level":"info"}
+{"message":"GET 200 /locations/airport - 2","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 airport.svg - 6","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 43","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 57","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 0","level":"info"}
+{"message":"GET 200 /hanoi - 49","level":"info"}
+{"message":"GET 200 /locations/airport - 2","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 3","level":"info"}
+{"message":"GET 200 hospital.svg - 2","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 0","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 58","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 2","level":"info"}
+{"message":"GET 200 /hanoi - 53","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 2","level":"info"}
+{"message":"GET 200 /locations/hospital - 3","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 56","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 2","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 57","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 2","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 65","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 13","level":"info"}
+{"message":"GET 200 /locations/hospital - 12","level":"info"}
+{"message":"GET 200 hospital.svg - 0","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 53","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 2","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 56","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 53","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 3","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 47","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 2","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 2","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 3","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 50","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 47","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 0","level":"info"}
+{"message":"GET 200 /hanoi - 71","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 0","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 60","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 0","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 67","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 0","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi/233/size - 2","level":"info"}
+{"message":"GET 200 /locations/47/summary - 2","level":"info"}
+{"message":"GET 200 /locations/55/summary - 0","level":"info"}
+{"message":"GET 200 /locations/55/summary - 0","level":"info"}
+{"message":"GET 200 /hanoi/222/size - 2","level":"info"}
+{"message":"GET 200 /hanoi/222/size - 0","level":"info"}
+{"message":"GET 200 /hanoi - 57","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 2","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 3","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 55","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 0","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 63","level":"info"}
+{"message":"GET 200 /locations/airport - 2","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 51","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 50","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 0","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 63","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 3","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 0","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 58","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 0","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 0","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 50","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 2","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 46","level":"info"}
+{"message":"GET 200 /locations/airport - 2","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 2","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 60","level":"info"}
+{"message":"GET 200 /locations/airport - 0","level":"info"}
+{"message":"GET 200 airport.svg - 2","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 3","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 0","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 55","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 66","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 2","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 0","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 54","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 2","level":"info"}
+{"message":"GET 200 /locations/hospital - 3","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 0","level":"info"}
+{"message":"GET 200 /hanoi - 56","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 42","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 0","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 0","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 0","level":"info"}
+{"message":"GET 200 /hanoi - 51","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 0","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 42","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 55","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 0","level":"info"}
+{"message":"GET 200 /hanoi - 68","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 0","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 62","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 2","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 49","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 64","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 0","level":"info"}
+{"message":"GET 200 /hanoi - 50","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 0","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 0","level":"info"}
+{"message":"GET 200 /hanoi - 62","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 2","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 58","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 2","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 52","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 2","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 54","level":"info"}
+{"message":"GET 200 /locations/airport - 0","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 airport.svg - 3","level":"info"}
+{"message":"GET 200 hospital.svg - 4","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 47","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 2","level":"info"}
+{"message":"GET 200 /hanoi - 49","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 airport.svg - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 0","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 0","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 61","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 61","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 0","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 0","level":"info"}
+{"message":"GET 200 /hanoi - 50","level":"info"}
+{"message":"GET 200 /locations/airport - 2","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 49","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 2","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 49","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 airport.svg - 3","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 61","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 54","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 airport.svg - 3","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 0","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 68","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 50","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 2","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 0","level":"info"}
+{"message":"GET 200 /hanoi - 67","level":"info"}
+{"message":"GET 200 /locations/airport - 0","level":"info"}
+{"message":"GET 200 airport.svg - 2","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 61","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 2","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 0","level":"info"}
+{"message":"GET 200 /hanoi - 62","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 2","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 0","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 57","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 2","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 58","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 0","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 57","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 51","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 airport.svg - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 2","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 50","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 0","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 0","level":"info"}
+{"message":"GET 200 /hanoi - 48","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 0","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 46","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 0","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 58","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 48","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 58","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 59","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 0","level":"info"}
+{"message":"GET 200 /hanoi - 61","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 0","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 0","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 55","level":"info"}
+{"message":"GET 200 /locations/airport - 0","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 airport.svg - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 0","level":"info"}
+{"message":"GET 200 /hanoi - 54","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 0","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 0","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 60","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 airport.svg - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 0","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 0","level":"info"}
+{"message":"GET 200 /hanoi - 53","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 airport.svg - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 0","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 2","level":"info"}
+{"message":"GET 200 /hanoi - 56","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 airport.svg - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 0","level":"info"}
+{"message":"GET 200 /hanoi - 59","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 49","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 0","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 2","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 56","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 2","level":"info"}
+{"message":"GET 200 /hanoi - 52","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 0","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 0","level":"info"}
+{"message":"GET 200 /hanoi - 42","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 airport.svg - 3","level":"info"}
+{"message":"GET 200 hospital.svg - 2","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 53","level":"info"}
+{"message":"GET 200 /locations/airport - 0","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 3","level":"info"}
+{"message":"GET 200 /locations/food - 4","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 71","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 4","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 0","level":"info"}
+{"message":"GET 200 /locations/65/summary - 0","level":"info"}
+{"message":"GET 200 /locations/75/summary - 2","level":"info"}
+{"message":"GET 200 /hanoi - 53","level":"info"}
+{"message":"GET 200 /locations/airport - 2","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 airport.svg - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 80","level":"info"}
+{"message":"GET 200 /locations/airport - 3","level":"info"}
+{"message":"GET 200 airport.svg - 5","level":"info"}
+{"message":"GET 200 /locations/hospital - 3","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 2","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 47","level":"info"}
+{"message":"GET 200 /locations/airport - 3","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 airport.svg - 6","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 2","level":"info"}
+{"message":"GET 200 /hanoi - 52","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 airport.svg - 3","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 2","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /locations/52/summary - 3","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 49","level":"info"}
+{"message":"GET 200 /locations/airport - 4","level":"info"}
+{"message":"GET 200 /hanoi - 62","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 airport.svg - 7","level":"info"}
+{"message":"GET 200 hospital.svg - 2","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /locations/53/summary - 3","level":"info"}
+{"message":"GET 200 /hanoi - 55","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 3","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /locations/46/summary - 1","level":"info"}
+{"message":"GET 200 /locations/11/summary - 0","level":"info"}
+{"message":"GET 200 /locations/8/summary - 0","level":"info"}
+{"message":"GET 200 /hanoi/241/size - 15","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 46","level":"info"}
+{"message":"GET 200 /locations/airport - 3","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 airport.svg - 6","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 50","level":"info"}
+{"message":"GET 200 /locations/airport - 3","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 airport.svg - 6","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 3","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 54","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 2","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 60","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 2","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 62","level":"info"}
+{"message":"GET 200 /hanoi - 46","level":"info"}
+{"message":"GET 200 /locations/airport - 2","level":"info"}
+{"message":"GET 200 airport.svg - 6","level":"info"}
+{"message":"GET 200 /locations/hospital - 3","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 62","level":"info"}
+{"message":"GET 200 /locations/airport - 3","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 airport.svg - 6","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 55","level":"info"}
+{"message":"GET 404 /favicon.ico - 0","level":"info"}
+{"message":"GET 200 /districts/240/summary - 5","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 54","level":"info"}
+{"message":"GET 404 /districts/summary - 0","level":"info"}
+{"message":"GET 200 /districts/230/summary - 0","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 53","level":"info"}
+{"message":"GET 200 /locations/airport - 5","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 airport.svg - 10","level":"info"}
+{"message":"GET 200 hospital.svg - 2","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 3","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 3","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi/241/size - 4","level":"info"}
+{"message":"GET 404 /district/241/summary - 0","level":"info"}
+{"message":"GET 200 /hanoi/232/size - 3","level":"info"}
+{"message":"GET 404 /district/232/summary - 0","level":"info"}
+{"message":"GET 200 /hanoi/218/size - 0","level":"info"}
+{"message":"GET 404 /district/218/summary - 0","level":"info"}
+{"message":"GET 200 /hanoi/228/size - 0","level":"info"}
+{"message":"GET 404 /district/228/summary - 0","level":"info"}
+{"message":"GET 200 /hanoi/211/size - 0","level":"info"}
+{"message":"GET 404 /district/211/summary - 0","level":"info"}
+{"message":"GET 200 /hanoi/238/size - 2","level":"info"}
+{"message":"GET 404 /district/238/summary - 0","level":"info"}
+{"message":"GET 200 /hanoi/237/size - 0","level":"info"}
+{"message":"GET 404 /district/237/summary - 0","level":"info"}
+{"message":"GET 200 /hanoi/230/size - 0","level":"info"}
+{"message":"GET 404 /district/230/summary - 0","level":"info"}
+{"message":"GET 200 /locations/46/summary - 3","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 51","level":"info"}
+{"message":"GET 200 /locations/airport - 3","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 airport.svg - 6","level":"info"}
+{"message":"GET 200 hospital.svg - 2","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 57","level":"info"}
+{"message":"GET 200 /locations/airport - 3","level":"info"}
+{"message":"GET 200 airport.svg - 6","level":"info"}
+{"message":"GET 200 /locations/hospital - 3","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 43","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 0","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /locations/39/summary - 2","level":"info"}
+{"message":"GET 200 /hanoi/241/size - 3","level":"info"}
+{"message":"GET 200 /hanoi/232/size - 0","level":"info"}
+{"message":"GET 200 /hanoi/234/size - 2","level":"info"}
+{"message":"GET 200 /hanoi/214/size - 0","level":"info"}
+{"message":"GET 200 /hanoi/231/size - 0","level":"info"}
+{"message":"GET 200 /hanoi - 62","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 2","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 0","level":"info"}
+{"message":"GET 200 /hanoi - 44","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 2","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 2","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi/241/size - 2","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 46","level":"info"}
+{"message":"GET 200 /locations/airport - 3","level":"info"}
+{"message":"GET 200 /locations/hospital - 4","level":"info"}
+{"message":"GET 200 airport.svg - 6","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 0","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 53","level":"info"}
+{"message":"GET 200 /locations/airport - 3","level":"info"}
+{"message":"GET 200 airport.svg - 6","level":"info"}
+{"message":"GET 200 /locations/hospital - 3","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 69","level":"info"}
+{"message":"GET 200 /locations/airport - 2","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 airport.svg - 6","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 3","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 0","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 0","level":"info"}
+{"message":"GET 200 /hanoi - 46","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 0","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 0","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi/241/size - 15","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 61","level":"info"}
+{"message":"GET 200 /locations/airport - 3","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 airport.svg - 6","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 0","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 57","level":"info"}
+{"message":"GET 200 /locations/airport - 3","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 airport.svg - 7","level":"info"}
+{"message":"GET 200 hospital.svg - 2","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 0","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 3","level":"info"}
+{"message":"GET 200 /hanoi - 46","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi/241/size - 3","level":"info"}
+{"message":"GET 200 /hanoi - 54","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 60","level":"info"}
+{"message":"GET 200 /locations/airport - 3","level":"info"}
+{"message":"GET 200 /locations/hospital - 7","level":"info"}
+{"message":"GET 200 airport.svg - 8","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 46","level":"info"}
+{"message":"GET 200 /locations/airport - 3","level":"info"}
+{"message":"GET 200 airport.svg - 5","level":"info"}
+{"message":"GET 200 /locations/hospital - 3","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 0","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 2","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 46","level":"info"}
+{"message":"GET 200 /locations/airport - 3","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 airport.svg - 7","level":"info"}
+{"message":"GET 200 hospital.svg - 2","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 2","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 51","level":"info"}
+{"message":"GET 200 /locations/airport - 3","level":"info"}
+{"message":"GET 200 airport.svg - 5","level":"info"}
+{"message":"GET 200 /locations/hospital - 3","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 68","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 0","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi/241/size - 3","level":"info"}
+{"message":"GET 200 /hanoi/232/size - 0","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 64","level":"info"}
+{"message":"GET 200 /locations/airport - 3","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 airport.svg - 6","level":"info"}
+{"message":"GET 200 hospital.svg - 2","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 6","level":"info"}
+{"message":"GET 200 /hanoi - 49","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi/241/size - 16","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 59","level":"info"}
+{"message":"GET 200 /locations/airport - 3","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 airport.svg - 7","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 5","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 0","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 59","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 0","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 0","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi/218/size - 3","level":"info"}
+{"message":"GET 200 /hanoi/228/size - 0","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 59","level":"info"}
+{"message":"GET 200 /hanoi - 64","level":"info"}
+{"message":"GET 200 /locations/airport - 2","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 airport.svg - 8","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 6","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 3","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi/232/size - 2","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 47","level":"info"}
+{"message":"GET 200 /locations/airport - 3","level":"info"}
+{"message":"GET 200 /locations/hospital - 4","level":"info"}
+{"message":"GET 200 airport.svg - 5","level":"info"}
+{"message":"GET 200 hospital.svg - 0","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 44","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 airport.svg - 3","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi/241/size - 3","level":"info"}
+{"message":"GET 404 /district/241/summary - 0","level":"info"}
+{"message":"GET 404 /district/$%7Bid%7D/summary - 0","level":"info"}
+{"message":"GET 404 /district/240D/summary - 0","level":"info"}
+{"message":"GET 404 /district/240/summary - 0","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 92","level":"info"}
+{"message":"GET 200 /locations/airport - 3","level":"info"}
+{"message":"GET 200 airport.svg - 5","level":"info"}
+{"message":"GET 200 /locations/hospital - 3","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi/231/size - 3","level":"info"}
+{"message":"GET 200 /districts/231/summary - 2","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 48","level":"info"}
+{"message":"GET 200 /locations/airport - 3","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 airport.svg - 14","level":"info"}
+{"message":"GET 200 hospital.svg - 2","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 55","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 0","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi/241/size - 1","level":"info"}
+{"message":"GET 200 /districts/241/summary - 1","level":"info"}
+{"message":"GET 200 /hanoi - 52","level":"info"}
+{"message":"GET 200 /locations/airport - 2","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 airport.svg - 2","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 62","level":"info"}
+{"message":"GET 200 /locations/airport - 3","level":"info"}
+{"message":"GET 200 airport.svg - 5","level":"info"}
+{"message":"GET 200 /locations/hospital - 3","level":"info"}
+{"message":"GET 200 hospital.svg - 2","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 0","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 0","level":"info"}
+{"message":"GET 200 /hanoi - 42","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi/241/size - 16","level":"info"}
+{"message":"GET 200 /districts/241/summary - 1","level":"info"}
+{"message":"GET 200 /hanoi - 64","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 2","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 62","level":"info"}
+{"message":"GET 200 /locations/airport - 3","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 airport.svg - 6","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 57","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 2","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 0","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi/231/size - 0","level":"info"}
+{"message":"GET 200 /districts/231/summary - 1","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 62","level":"info"}
+{"message":"GET 200 /locations/airport - 3","level":"info"}
+{"message":"GET 200 airport.svg - 6","level":"info"}
+{"message":"GET 200 /locations/hospital - 3","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 3","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 0","level":"info"}
+{"message":"GET 200 /hanoi - 55","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 0","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi/231/size - 0","level":"info"}
+{"message":"GET 200 /districts/231/summary - 1","level":"info"}
+{"message":"GET 200 /hanoi/241/size - 0","level":"info"}
+{"message":"GET 200 /districts/241/summary - 2","level":"info"}
+{"message":"GET 200 /hanoi/241/size - 1","level":"info"}
+{"message":"GET 200 /districts/241/summary - 1","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 64","level":"info"}
+{"message":"GET 200 /locations/airport - 3","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 airport.svg - 8","level":"info"}
+{"message":"GET 200 hospital.svg - 2","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 4","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi/216/size - 0","level":"info"}
+{"message":"GET 200 /districts/216/summary - 17","level":"info"}
+{"message":"GET 200 /hanoi/234/size - 15","level":"info"}
+{"message":"GET 200 /districts/234/summary - 1","level":"info"}
+{"message":"GET 200 /hanoi/231/size - 2","level":"info"}
+{"message":"GET 200 /districts/231/summary - 1","level":"info"}
+{"message":"GET 200 /hanoi/241/size - 0","level":"info"}
+{"message":"GET 200 /districts/241/summary - 16","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
+{"message":"GET 200 /hanoi - 65","level":"info"}
+{"message":"GET 200 /locations/airport - 3","level":"info"}
+{"message":"GET 200 /locations/hospital - 5","level":"info"}
+{"message":"GET 200 airport.svg - 5","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 1","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"GET 200 /hanoi - 51","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 1","level":"info"}
+{"message":"GET 200 airport.svg - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 0","level":"info"}
+{"message":"GET 200 /locations/food - 2","level":"info"}
+{"message":"GET 200 food.svg - 0","level":"info"}
+{"message":"GET 200 /hanoi/241/size - 0","level":"info"}
+{"message":"GET 200 /districts/241/summary - 16","level":"info"}
+{"message":"GET 200 /hanoi/241/size - 2","level":"info"}
+{"message":"GET 200 /districts/241/summary - 1","level":"info"}
+{"message":"GET 200 /hanoi/241/size - 2","level":"info"}
+{"message":"GET 200 /districts/241/summary - 1","level":"info"}
+{"message":"GET 200 /hanoi/241/size - 2","level":"info"}
+{"message":"GET 200 /districts/241/summary - 1","level":"info"}
+{"message":"GET 200 /hanoi/241/size - 2","level":"info"}
+{"message":"GET 200 /districts/241/summary - 2","level":"info"}
+{"message":"GET 200 /hanoi - 58","level":"info"}
+{"message":"GET 200 /locations/airport - 1","level":"info"}
+{"message":"GET 200 airport.svg - 1","level":"info"}
+{"message":"GET 200 /locations/hospital - 2","level":"info"}
+{"message":"GET 200 hospital.svg - 1","level":"info"}
+{"message":"GET 200 /locations/tourist%20attraction - 2","level":"info"}
+{"message":"GET 200 tourist attraction.svg - 1","level":"info"}
+{"message":"GET 200 /locations/food - 1","level":"info"}
+{"message":"GET 200 food.svg - 1","level":"info"}
+{"message":"Server listening at port5000","level":"info"}
+{"message":"Backend listening at port 3000","level":"info"}
+{"message":"Connected To vietnamGIS at localhost:5432","level":"info"}
