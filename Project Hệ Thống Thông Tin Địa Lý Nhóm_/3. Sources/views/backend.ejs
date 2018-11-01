@@ -1,0 +1,19 @@
+<%- include('header'); -%>
+
+<div class="container">
+	<table class="table">
+		<tr>
+			<th>District Name</th>
+		    <th>District Summary</th>
+		</tr>
+		<% results.forEach(districts => { %>
+			<tr>
+				<td><%= districts.varname_2 %></td>
+				<td><%= districts.summary %></td>
+			</tr>
+		<% }) %>
+	</table>
+	<a href="/locations"><button class="btn btn-primary">Địa điểm</button></a>
+</div>
+
+<%- include('footer'); -%>

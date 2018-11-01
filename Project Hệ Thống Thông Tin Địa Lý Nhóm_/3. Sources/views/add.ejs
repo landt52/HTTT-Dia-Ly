@@ -1,0 +1,38 @@
+<%- include('header'); -%>
+
+<div class="container">
+	<h1>Add New Location</h1>
+	<form action="" method="post">
+		<div class="form-group">
+		    <label for="name">Location Name</label>
+		    <input type="text" name="name" class="form-control" id="name" placeholder="Name">
+		</div>
+		<div class="form-group">
+			<label for="type">Location Type</label>
+			<select name="type" id="type">
+				<% results.forEach(locations =>{ %>
+					<option value="<%= locations.type %>"><%= locations.type %></option>
+				<% }) %>
+			</select>
+		</div>
+		<div class="form-group">
+		    <label for="lat">Location Latitude</label>
+		    <input type="text" name="lat" class="form-control" id="lat" placeholder="Latitude">
+		</div>
+		<div class="form-group">
+		    <label for="lng">Location Longitude</label>
+		    <input type="text" name="lng" class="form-control" id="lng" placeholder="Longitude">
+		</div>
+		<div class="form-group">
+		    <label for="summary">Location Summary</label>
+		    <input type="text" name="summary" class="form-control" id="summary" placeholder="Summary">
+		</div>
+		<div class="form-group">
+		    <label for="website">Location Website</label>
+		    <input type="text" name="website" class="form-control" id="website" placeholder="Website">
+		</div>
+		<button class="btn btn-primary">Add</button>
+	</form>
+</div>
+
+<%- include('footer'); -%>

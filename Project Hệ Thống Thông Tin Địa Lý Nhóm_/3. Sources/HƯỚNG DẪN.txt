@@ -1,0 +1,6 @@
+﻿B1: giải nén node_modules.rar
+B2: import file vietnamGIS trong folder Database_backup_file vào PostgreSQL
+B3: chỉnh sửa connectionString của file server/database.js thành tên đăng nhập/password, localhost của postgreSQL, database vừa import
+B4: bật commandline ở file index.js ngoài cùng và dùng lệnh npm start ~> chọn public
+B5: bật thêm 1 commandline ở file index.js ngoài cũng và dùng lệnh node index.js\
+B6: truy cập http://localhost:8080/

@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|MedievalSharp");
+@import "variable";
+
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+	box-sizing: inherit;
+}
+
+html{
+	font-size: 62.5%;     //1rem = 10px
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    box-sizing: border-box;
+	margin: 0;
+	font-family: $font-normal;
+    background: $color-lightDark;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+ #loading-container {
+    font-family: $font-normal;
+    position: absolute;
+    color: white;
+    letter-spacing: 0.8rem;
+    text-align: center;
+    top: 40%;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+a {
+    color: $highlight;
+}
+
+#loading-container {
+    display: none;
+}
+
+#app-container {
+    display: block;
+}
+
+@import "components/info-panel/info-panel";
+@import "components/map/map";
+@import "components/search-bar/search-bar";

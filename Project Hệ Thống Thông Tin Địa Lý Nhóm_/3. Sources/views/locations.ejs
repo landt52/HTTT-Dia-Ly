@@ -1,0 +1,29 @@
+<%- include('header'); -%>
+
+<table class="table" style="table-layout:fixed; page-break-after:auto">
+	<tr>
+	    <th>Name</th>
+	    <th>Type</th>
+	    <th>Latitude</th>
+	    <th>Longitude</th>
+	    <th>Summary</th>
+	    <th>Website</th>
+	    <th><a href="/locations/add"><button class="btn btn-primary">Add</button></a></th>
+    </tr>
+    <% results.forEach(locations => { %>
+	    <tr>   
+			<td><%= locations.name %></td>
+			<td><%= locations.type %></td>
+			<td><%= locations.lat %></td>
+			<td><%= locations.lng %></td>
+			<td style="text-overflow: ellipsis; white-space: nowrap; overflow: hidden; width: 50px;"><%= locations.summary %></td>
+			<td style="text-overflow: ellipsis; white-space: nowrap; overflow: hidden; width: 50px;"><%= locations.website %></td>
+			<td>
+				<a href="/locations/update/<%= locations.gid %>" class="btn btn-success">Sua</a>
+				<a href="/locations/delete/<%= locations.gid %>" class="btn btn-danger">Xoa</a>
+			</td>
+	    </tr>
+	<% }) %>
+</table>
+
+<%- include('footer'); -%>
