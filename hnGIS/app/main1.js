@@ -16,7 +16,7 @@ class ViewController{
 		document.getElementById('app').outerHTML = template
 		this.searchService = new SearchService()
 		this.api = new ApiService('http://localhost:5000/')
-		this.locationPointTypes = ['airport', 'hospital', 'tourist attraction', 'food']
+		this.locationPointTypes = ['airport', 'hospital', 'tourist attraction', 'food', 'hotel']
 		this.initializeComponents()
     	this.loadMapData()
 	}

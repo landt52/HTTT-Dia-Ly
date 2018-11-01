@@ -5,7 +5,7 @@
 -- Dumped from database version 9.6.10
 -- Dumped by pg_dump version 9.6.10
 
--- Started on 2018-11-01 14:13:23
+-- Started on 2018-11-01 16:17:11
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -344,6 +344,30 @@ COPY public.locations (gid, name, type, lat, lng, summary, website) FROM stdin;
 85	Bun Oc Suon Hai Ba Trung	Food	21.026745999999999	105.844247	https://news.zing.vn/bun-oc-suon-non-ngon-toi-nghien-o-via-he-hai-ba-trung-post592843.html	https://www.foody.vn/ha-noi/bun-oc-suon-hai-ba-trung
 86	Bun Oc Nguoi O Quan Chuong	Food	21.037319	105.852025	http://kenh14.vn/doi-song/4-quan-bun-oc-nguoi-ngon-nuc-tieng-ha-thanh-20150623114736758.chn	https://www.foody.vn/ha-noi/bun-oc-nguoi-o-quan-chuong
 87	Coffee Giang 	Food	21.041397	105.848885	http://cafegiang.vn/	https://www.foody.vn/ha-noi/giang-cafe
+88	Coffee Dinh	Food	21.032160999999999	105.85215599999999	https://dantri.com.vn/nhip-song-tre/cafe-dinh-mot-net-ha-noi-trong-toi-1352742120.htm	https://www.foody.vn/ha-noi/dinh-cafe-dinh-tien-hoang
+89	Old Quarter Coffee Hang Gai	Food	21.032198999999999	105.85102500000001		https://www.foody.vn/ha-noi/cafe-vuon-pho-co
+90	Xoi Yen	Food	21.033757000000001	105.8545	http://xn--cahngxiyn-s1a7tx305a2qa.vn/	https://www.foody.vn/ha-noi/xoi-yen-nguyen-huu-huan
+91	Com Suon Dao Duy Tu	Food	21.035105999999999	105.853075	http://kenh14.vn/com-suon-dao-duy-tu-diem-nhan-khong-the-thieu-trong-am-thuc-pho-co-ha-noi-20161014033107674.chn	https://www.foody.vn/ha-noi/com-suon-nuong-dao-duy-tu
+92	Banh Tom Ho Tay	Food	21.047395999999999	105.837576	http://www.banhtomhotay.com/	https://www.foody.vn/ha-noi/banh-tom-ho-tay
+93	Beer Ta Hien	Food	21.034827	105.85206599999999	http://vietnamnet.vn/vn/kinh-doanh/thi-truong/pho-bia-tay-cua-ha-noi-309649.html	https://www.foody.vn/ha-noi/bia-pho-co-ta-hien
+94	Hanoi La Siesta Central Hotel & Spa	Hotel	21.032046999999999	105.853672	https://www.hanoilasiestacentralhotel.com/	https://www.booking.com/hotel/vn/hanoi-la-siesta-central-hanoi.vi.html
+96	Hanoi Golden Holiday Hotel	Hotel	21.035703999999999	105.84768099999999	http://hanoigoldenholidayhotel.com/	https://www.booking.com/hotel/vn/hanoi-golden-holiday.vi.html
+97	Hanoi Bella Rosa Suite Hotel	Hotel	21.032039999999999	105.853463	http://www.hanoibellarosasuitehotel.com/	https://www.booking.com/hotel/vn/hanoi-bella-rosa-suite.vi.html
+98	Bonsella Hotel	Hotel	21.030339000000001	105.850635	http://www.bonsellahotel.com/	https://www.booking.com/hotel/vn/diamond.vi.html
+99	Golden Legend Diamond Hotel	Hotel	21.030282	105.84816499999999	http://www.goldenlegenddiamondhotel.com/	https://www.booking.com/hotel/vn/golden-legend-diamond.vi.html
+100	Hanoi E Central Hotel	Hotel	21.031509	105.855341	http://www.hanoiecentralhotel.com/	https://www.booking.com/hotel/vn/hanoi-elegance-emerald.vi.html
+101	Hanoi La Selva Hotel	Hotel	21.031326	105.854868	http://www.hanoilaselvahotel.com/	https://www.booking.com/hotel/vn/the-jasmine.vi.html
+95	JM Marvel Hotel & Spa	Hotel	21.030901	105.846555	http://www.hanoimarvelhotel.com/	https://www.booking.com/hotel/vn/jm-marvel-amp-spa.vi.html
+102	Nova Luxury Hotel	Hotel	21.035712	105.847002	http://www.novaluxuryhotel.com/	https://www.booking.com/hotel/vn/hanoi-charming-2.vi.html
+105	Hanoi Guest House Royal	Hotel	21.034687999999999	105.85401	http://hanoiguesthouseroyal.com/	https://www.booking.com/hotel/vn/hanoi-guest-house-royal.vi.html
+106	CucKu Homestay	Hotel	21.050249000000001	105.844257	https://www.booking.com/hotel/vn/garden-guest-house.vi.html	https://www.booking.com/hotel/vn/garden-guest-house.vi.html
+107	Viet Hotel	Hotel	21.040911000000001	105.847533	https://www.booking.com/hotel/vn/viet.vi.html	https://www.booking.com/hotel/vn/viet.vi.html
+108	Tonkin Homestay	Hotel	21.013608000000001	105.85078900000001	https://www.booking.com/hotel/vn/private-room-near-city-center.vi.html	https://www.booking.com/hotel/vn/private-room-near-city-center.vi.html
+109	Hanoi Moon Cactus	Hotel	21.029910000000001	105.849039	https://www.booking.com/hotel/vn/hanoimooncactushomestay.vi.html	https://www.booking.com/hotel/vn/hanoimooncactushomestay.vi.html
+110	HC Old Quarter View House	Hotel	21.028618000000002	105.848095	http://hcoldquarterviewhouse.com/gioi-thieu	https://www.booking.com/hotel/vn/hc-old-quarter-view-house.vi.html
+111	Hanoi Balcony Homestay	Hotel	21.030187000000002	105.85650699999999	https://www.booking.com/hotel/vn/hanoi-balcony-homestay.vi.html	https://www.booking.com/hotel/vn/hanoi-balcony-homestay.vi.html
+112	6Senses Homestay Red River View	Hotel	21.025642999999999	105.861313	https://www.booking.com/hotel/vn/6senses-homestay-red-river-view.vi.html	https://www.booking.com/hotel/vn/6senses-homestay-red-river-view.vi.html
+113	Sweet Family Guest House	Hotel	21.032001999999999	105.842651	https://www.booking.com/hotel/vn/hanoi-lucky-guest-house.vi.html	https://www.booking.com/hotel/vn/hanoi-lucky-guest-house.vi.html
 \.
 
 
@@ -353,7 +377,7 @@ COPY public.locations (gid, name, type, lat, lng, summary, website) FROM stdin;
 -- Name: locations_gid_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.locations_gid_seq', 87, true);
+SELECT pg_catalog.setval('public.locations_gid_seq', 113, true);
 
 
 --
@@ -433,7 +457,7 @@ ALTER TABLE ONLY public.districts
 CREATE INDEX vnm_adm2_geom_idx ON public.districts USING gist (geom);
 
 
--- Completed on 2018-11-01 14:13:25
+-- Completed on 2018-11-01 16:17:12
 
 --
 -- PostgreSQL database dump complete
